@@ -1,7 +1,5 @@
 package com.platts.oil.analytics.irr.uat.model;
 
-import jdk.nashorn.internal.objects.annotations.Getter;
-
 import java.util.Date;
 
 /**
@@ -28,7 +26,7 @@ public class MarketAnalysisData {
     }
 
     public boolean equals(MarketAnalysisData b) {
-       boolean returnBool = this.title.equals(b.title) && this.publishedDate.equals(b.publishedDate);
+       boolean returnBool = this.id.equals(b.id) && this.title.equals(b.title) && this.published_date.equals(b.published_date);
         return returnBool;
     }
 
