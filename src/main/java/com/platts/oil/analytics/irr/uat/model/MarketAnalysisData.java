@@ -26,7 +26,7 @@ public class MarketAnalysisData {
     }
 
     public boolean equals(MarketAnalysisData b) {
-       boolean returnBool = this.id.equals(b.id) && this.title.equals(b.title) && this.published_date.equals(b.published_date);
+       boolean returnBool = this.id.equals(b.id) && this.title.equals(b.title) && this.publishedDate.equals(b.publishedDate);
         return returnBool;
     }
 
