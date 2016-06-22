@@ -1,5 +1,4 @@
 Meta:
-@tag component:login
 
 Narrative:
 As a WEA user

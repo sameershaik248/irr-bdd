@@ -11,4 +11,8 @@ public class PlattsPageObject extends PageObject {
         return "return Ext.ComponentQuery.query('"+xtype+"[reference="+reference+"]')[0].id";
     }
 
+    public static String getButtonJs(String selector, int item) {
+        return "return Ext.ComponentQuery.query('"+selector+"')["+item+"]";
+    }
+
 }

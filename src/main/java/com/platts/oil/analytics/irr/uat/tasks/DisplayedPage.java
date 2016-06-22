@@ -15,7 +15,6 @@ public class DisplayedPage implements Question<AppPages> {
         return new DisplayedPage();
     }
 
-    @Override
     public AppPages answeredBy(Actor actor) {
         AppPages result;
         if (isPanelVisible(actor, LoginPage.MULTIPLAY_PAGE_XTYPE)) {
@@ -29,9 +28,11 @@ public class DisplayedPage implements Question<AppPages> {
     }
 
     private boolean isPanelVisible(Actor actor, String xtype) {
-        Long size = (Long) BrowseTheWeb.as(actor).evaluateJavascript("return Ext.ComponentQuery.query('" + xtype + "').length;");
+        Long size = (Long) BrowseTheWeb.as(actor).evaluateJavascript
+                ("return Ext.ComponentQuery.query('" + xtype + "').length;");
         if(size > 0) {
-            return (boolean) BrowseTheWeb.as(actor).evaluateJavascript("return Ext.ComponentQuery.query('" + xtype + "')[0].isVisible();");
+            return (boolean) BrowseTheWeb.as(actor).evaluateJavascript
+                    ("return Ext.ComponentQuery.query('" + xtype + "')[0].isVisible();");
         }
         return false;
     }

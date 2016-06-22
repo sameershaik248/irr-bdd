@@ -2,11 +2,9 @@ package com.platts.oil.analytics.irr.uat.jbehave.stepdefinitions;
 
 import com.platts.oil.analytics.irr.uat.model.AppPages;
 import com.platts.oil.analytics.irr.uat.model.MarketAnalysisData;
+import com.platts.oil.analytics.irr.uat.pages.MarketInsightPage;
 import com.platts.oil.analytics.irr.uat.pages.components.Navigation;
-import com.platts.oil.analytics.irr.uat.tasks.ClickSenchaButton;
-import com.platts.oil.analytics.irr.uat.tasks.DisplayedArticle;
-import com.platts.oil.analytics.irr.uat.tasks.LoginToApp;
-import com.platts.oil.analytics.irr.uat.tasks.OpenAnApp;
+import com.platts.oil.analytics.irr.uat.tasks.*;
 import com.platts.oil.analytics.irr.uat.util.MarketAnalysisStaticLoader;
 import net.serenitybdd.screenplay.abilities.BrowseTheWeb;
 import net.serenitybdd.screenplay.actions.Click;
@@ -32,12 +30,17 @@ public class MarketAnalysisStepDefinitions {
     @Managed
     WebDriver janesBrowser;
 
-    @Steps
-    DisplayedArticle theDisplayedArticle;
+    @Steps DisplayedArticle theDisplayedArticle;
+    @Steps DisplayedMarketIndex theDisplayedMarketIndex;
 
     @Given("$actor is logged into the $app application with username $username and password $password")
     public void i_am_logged_into_wea(String actor, String app, String username, String password) {
         theActorNamed(actor).attemptsTo(LoginToApp.withUsernameAndPassword(username, password));
+    }
+
+    @Given("$actor is on the Market Insight page")
+    public void i_am_on_the_market_insight_page(String actor) {
+        theActorNamed(actor).attemptsTo(Click.on(Navigation.marketInsightButton));
     }
 
     @When("$actor clicks on the $page page")
@@ -45,10 +48,30 @@ public class MarketAnalysisStepDefinitions {
         theActorNamed(actor).attemptsTo(Click.on(Navigation.marketInsightButton));
     }
 
-    @Then("$actor sees the latest $page")
-    public void i_see_the_latest_market_analysis(String actor) {
+    @When("$actor selects the first article from the index")
+    public void i_select_the_first_article_from_index(String actor) {
+        theActorNamed(actor).attemptsTo(ClickSenchaButton.forComponent(MarketInsightPage.FIRST_INDEX_ARTICLE_JS));
+    }
+
+    @Then("$actor sees the $selector Market Insight article")
+    public void i_see_the_latest_market_analysis(String actor, String selector) {
         List<MarketAnalysisData> articleList = MarketAnalysisStaticLoader.getLoader().loadFromFile();
-        theActorNamed(actor).should(seeThat(theDisplayedArticle, equalTo(articleList.get(0))));
+        MarketAnalysisData currentArticle;
+        if (selector.equals("latest")) {
+            currentArticle = articleList.get(0);
+        } else if (selector.equals("second")) {
+            currentArticle = articleList.get(1);
+        } else {
+            currentArticle = articleList.get(0);
+        }
+        theActorNamed(actor).should(seeThat(theDisplayedArticle, equalTo(currentArticle)));
+    }
+
+    @Then("$actor sees the Market Insight index")
+    public void i_see_the_page_index(String actor) {
+        List<MarketAnalysisData> articleList = MarketAnalysisStaticLoader.getLoader().loadFromFile();
+        articleList.remove(0);
+        theActorNamed(actor).should(seeThat(theDisplayedMarketIndex, equalTo(articleList)));
     }
 
     @WhenPageOpens

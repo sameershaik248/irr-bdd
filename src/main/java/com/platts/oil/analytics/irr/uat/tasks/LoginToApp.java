@@ -3,6 +3,7 @@ package com.platts.oil.analytics.irr.uat.tasks;
 import com.platts.oil.analytics.irr.uat.pages.LoginPage;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Task;
+import net.serenitybdd.screenplay.abilities.BrowseTheWeb;
 import net.thucydides.core.annotations.Step;
 
 import static net.serenitybdd.screenplay.Tasks.instrumented;
