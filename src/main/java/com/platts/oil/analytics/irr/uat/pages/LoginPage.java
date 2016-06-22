@@ -11,7 +11,7 @@ import org.openqa.selenium.WebElement;
 /**
  * Created by jonathan_cone on 6/21/2016.
  */
-@DefaultUrl("http://localhost:8080/irr")
+@DefaultUrl("http://nj09mhf5996.mhf.mhc:7001/irr")
 public class LoginPage extends PageObject {
 
     public static final String EMAIL_TEXTFIELD_REFERENCE = "userid";
