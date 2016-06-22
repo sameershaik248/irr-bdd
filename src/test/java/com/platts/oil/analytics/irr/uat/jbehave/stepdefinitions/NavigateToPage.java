@@ -1,7 +1,9 @@
 package com.platts.oil.analytics.irr.uat.jbehave.stepdefinitions;
 
+import com.platts.oil.analytics.irr.uat.model.MarketAnalysisData;
 import com.platts.oil.analytics.irr.uat.tasks.LoginToApp;
 import com.platts.oil.analytics.irr.uat.tasks.OpenAnApp;
+import com.platts.oil.analytics.irr.uat.util.MarketAnalysisStaticLoader;
 import net.serenitybdd.screenplay.abilities.BrowseTheWeb;
 import net.thucydides.core.annotations.Managed;
 import net.thucydides.core.annotations.Steps;
@@ -10,6 +12,8 @@ import org.jbehave.core.annotations.Given;
 import org.jbehave.core.annotations.Then;
 import org.jbehave.core.annotations.When;
 import org.openqa.selenium.WebDriver;
+
+import java.util.List;
 
 import static com.platts.oil.analytics.irr.uat.model.Actors.theActorNamed;
 
@@ -33,6 +37,7 @@ public class NavigateToPage {
 
     @Then("$actor sees the latest $page")
     public void i_see_the_latest_market_analysis(String actor) {
+        List<MarketAnalysisData> list = MarketAnalysisStaticLoader.getLoader().loadFromFile();
         theActorNamed(actor).can(BrowseTheWeb.with(theBrowserBelongingTo(actor)));
     }
 
