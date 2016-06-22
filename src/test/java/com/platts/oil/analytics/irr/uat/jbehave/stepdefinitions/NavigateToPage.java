@@ -1,8 +1,11 @@
 package com.platts.oil.analytics.irr.uat.jbehave.stepdefinitions;
 
+import com.platts.oil.analytics.irr.uat.pages.components.Navigation;
+import com.platts.oil.analytics.irr.uat.tasks.ClickSenchaButton;
 import com.platts.oil.analytics.irr.uat.tasks.LoginToApp;
 import com.platts.oil.analytics.irr.uat.tasks.OpenAnApp;
 import net.serenitybdd.screenplay.abilities.BrowseTheWeb;
+import net.serenitybdd.screenplay.actions.Click;
 import net.thucydides.core.annotations.Managed;
 import net.thucydides.core.annotations.Steps;
 import net.thucydides.core.annotations.WhenPageOpens;
@@ -27,8 +30,8 @@ public class NavigateToPage {
     }
 
     @When("$actor clicks on the $page page")
-    public void i_click_on_the_page(String actor) {
-        theActorNamed(actor).can(BrowseTheWeb.with(theBrowserBelongingTo(actor)));
+    public void i_click_on_the_page(String actor, String page) {
+        theActorNamed(actor).attemptsTo(Click.on(Navigation.marketInsightButton));
     }
 
     @Then("$actor sees the latest $page")

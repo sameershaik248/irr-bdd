@@ -6,6 +6,7 @@ import com.platts.oil.analytics.irr.uat.tasks.LoginToApp;
 import com.platts.oil.analytics.irr.uat.tasks.OpenAnApp;
 import net.serenitybdd.screenplay.abilities.BrowseTheWeb;
 import net.thucydides.core.annotations.Managed;
+import net.thucydides.core.annotations.Pending;
 import net.thucydides.core.annotations.Steps;
 import org.jbehave.core.annotations.Given;
 import org.jbehave.core.annotations.Then;
@@ -27,6 +28,7 @@ public class LoginStepDefinitions {
     @Steps DisplayedPage theDisplayedPage;
 
     @Given("$actor opens the $app application")
+    @Pending
     public void i_open_the_app_application(String actor, String app) throws Throwable {
         theActorNamed(actor).can(BrowseTheWeb.with(theBrowserBelongingTo(actor)));
         theActorNamed(actor).attemptsTo(OpenAnApp.theApp("WEA"));
