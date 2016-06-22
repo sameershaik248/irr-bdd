@@ -28,7 +28,7 @@ public class LoginStepDefinitions {
 
     @Given("$actor opens the $app application")
     public void i_open_the_app_application(String actor, String app) throws Throwable {
-        theActorNamed(actor).can(BrowseTheWeb.with(theBrowserBeloningTo(actor)));
+        theActorNamed(actor).can(BrowseTheWeb.with(theBrowserBelongingTo(actor)));
         theActorNamed(actor).attemptsTo(OpenAnApp.theApp("WEA"));
     }
 
@@ -42,9 +42,9 @@ public class LoginStepDefinitions {
         theActorNamed(actor).should(seeThat(theDisplayedPage, equalTo(AppPages.MultiPlay)));
     }
 
-    private WebDriver theBrowserBeloningTo(String actor) {
+    private WebDriver theBrowserBelongingTo(String actor) {
         switch (actor) {
-            case "Jane" :
+            case "jane" :
                 return janesBrowser;
             default:
                 return janesBrowser;
