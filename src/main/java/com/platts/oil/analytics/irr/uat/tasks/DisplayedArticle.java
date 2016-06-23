@@ -5,7 +5,6 @@ import com.platts.oil.analytics.irr.uat.pages.MarketInsightPage;
 import net.serenitybdd.screenplay.Question;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.abilities.BrowseTheWeb;
-import org.yaml.snakeyaml.error.Mark;
 
 import java.text.DateFormat;
 import java.text.ParseException;
@@ -22,7 +21,8 @@ public class DisplayedArticle implements Question<MarketAnalysisData> {
         MarketAnalysisData article = new MarketAnalysisData();
         String title = getElementText(actor, MarketInsightPage.CURRENT_ARTICLE_TITLE_JS);
         String publishedDate = getElementText(actor, MarketInsightPage.CURRENT_ARTICLE_DATE_JS);
-        DateFormat df = new SimpleDateFormat("d M, Y");
+        String articleId = (String) BrowseTheWeb.as(actor).evaluateJavascript(MarketInsightPage.CURRENT_ARTICLE_ARTICLE_ID);
+        DateFormat df = new SimpleDateFormat("EEE MMM dd YYYY HH:mm:ss zzz-zzzz (z)");
         Date pblshDate;
         try {
             pblshDate = df.parse(publishedDate);
@@ -30,6 +30,7 @@ public class DisplayedArticle implements Question<MarketAnalysisData> {
             System.out.println(e);
             pblshDate = null;
         }
+        article.setId(articleId);
         article.setTitle(title);
         article.setPublishedDate(pblshDate);
         return article;

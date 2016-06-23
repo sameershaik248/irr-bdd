@@ -40,12 +40,12 @@ public class MarketAnalysisStepDefinitions {
 
     @Given("$actor is on the Market Insight page")
     public void i_am_on_the_market_insight_page(String actor) {
-        theActorNamed(actor).attemptsTo(Click.on(Navigation.marketInsightButton));
+        theActorNamed(actor).attemptsTo(ClickSenchaButton.forComponent(Navigation.MARKET_INSIGHT_NAV_BUTTON_JS));
     }
 
     @When("$actor clicks on the $page page")
     public void i_click_on_the_page(String actor, String page) {
-        theActorNamed(actor).attemptsTo(Click.on(Navigation.marketInsightButton));
+        theActorNamed(actor).attemptsTo(ClickSenchaButton.forComponent(Navigation.MARKET_INSIGHT_NAV_BUTTON_JS));
     }
 
     @When("$actor selects the first article from the index")
@@ -53,13 +53,13 @@ public class MarketAnalysisStepDefinitions {
         theActorNamed(actor).attemptsTo(ClickSenchaButton.forComponent(MarketInsightPage.FIRST_INDEX_ARTICLE_JS));
     }
 
-    @Then("$actor sees the $selector Market Insight article")
-    public void i_see_the_latest_market_analysis(String actor, String selector) {
+    @Then("$actor sees the $selected Market Insight article")
+    public void i_see_the_latest_market_analysis(String actor, String selected) {
         List<MarketAnalysisData> articleList = MarketAnalysisStaticLoader.getLoader().loadFromFile();
         MarketAnalysisData currentArticle;
-        if (selector.equals("latest")) {
+        if (selected.equals("latest")) {
             currentArticle = articleList.get(0);
-        } else if (selector.equals("second")) {
+        } else if (selected.equals("second")) {
             currentArticle = articleList.get(1);
         } else {
             currentArticle = articleList.get(0);

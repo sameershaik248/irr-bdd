@@ -1,8 +1,11 @@
 package com.platts.oil.analytics.irr.uat.pages;
 
+import net.thucydides.core.annotations.DefaultUrl;
+
 /**
  * Created by jonathan_cone on 6/22/2016.
  */
+@DefaultUrl("http://tx03-76mj282:7001/irrUI/")
 public class MarketInsightPage extends PlattsPageObject {
 
     private static final String CURRENT_ARTICLE_TITLE_XTYPE = "container";
@@ -17,20 +20,22 @@ public class MarketInsightPage extends PlattsPageObject {
     private static final String CURRENT_ARTICLE_CONTENT_REFERENCE = "content";
     public static final String CURRENT_ARTICLE_CONTENT_JS =
             getComponentJs(CURRENT_ARTICLE_CONTENT_XTYPE, CURRENT_ARTICLE_CONTENT_REFERENCE);
+    public static final String CURRENT_ARTICLE_ARTICLE_ID =
+            "return Ext.ComponentQuery.query('container[reference=mainAnalysisPanel]')[0].articleId;";
 
     public static final String FIRST_INDEX_ARTICLE_JS =
             getButtonJs("marketanalysisindex analysisIndexPanel", 1);
 
     public static final String NUMBER_OF_ARTICLES_IN_INDEX =
-            "return Ext.ComponentQuery.query('panel[xtype=marketanalysisindex]').length";
+            "return Ext.ComponentQuery.query('marketanalysisindex').length";
 
     public static String ARTICLE_ID_FOR_INDEX_ARTICLES =
-            "return Ext.ComponentQuery.query('panel[xtype=marketanalysisindex]')[%d].articleId";
+            "return Ext.ComponentQuery.query('marketanalysisindex')[%d].articleId";
 
     public static String INDEX_ARTICLE_TITLE_JS =
-            "return Ext.ComponentQuery.query('panel[xtype=marketanalysisindex] indexTitle')[%d].id";
+            "return Ext.ComponentQuery.query('panel[itemId=indexTitle]')[%d].id";
 
     public static String INDEX_ARTICLE_DATE_JS =
-            "return Ext.ComponentQuery.query('panel[xtype=marketanalysisindex] indexPubDate')[%d].id";
+            "return Ext.ComponentQuery.query('panel[itemId=indexPubDate')[%d].id";
 
 }
