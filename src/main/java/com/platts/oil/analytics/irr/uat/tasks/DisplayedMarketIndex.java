@@ -19,7 +19,7 @@ public class DisplayedMarketIndex implements Question<ArrayList<MarketAnalysisDa
 
     public ArrayList<MarketAnalysisData> answeredBy(Actor actor) {
         ArrayList<MarketAnalysisData> marketInsightIndex = new ArrayList<>();
-        int numArticles = getIndexLength(actor);
+        Long numArticles = getIndexLength(actor);
         for(int i = 0; i < numArticles; i++) {
             marketInsightIndex.add(getIndexItemData(actor, i));
         }
@@ -46,8 +46,8 @@ public class DisplayedMarketIndex implements Question<ArrayList<MarketAnalysisDa
         return marketData;
     }
 
-    private int getIndexLength(Actor actor) {
-        return (int) BrowseTheWeb.as(actor).evaluateJavascript(MarketInsightPage.NUMBER_OF_ARTICLES_IN_INDEX);
+    private Long getIndexLength(Actor actor) {
+        return (Long) BrowseTheWeb.as(actor).evaluateJavascript(MarketInsightPage.NUMBER_OF_ARTICLES_IN_INDEX);
     }
 
     private String getElementText(Actor actor, int index, String js) {

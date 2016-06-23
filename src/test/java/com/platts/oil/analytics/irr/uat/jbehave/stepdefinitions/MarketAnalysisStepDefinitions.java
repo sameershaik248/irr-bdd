@@ -5,7 +5,7 @@ import com.platts.oil.analytics.irr.uat.model.MarketAnalysisData;
 import com.platts.oil.analytics.irr.uat.pages.MarketInsightPage;
 import com.platts.oil.analytics.irr.uat.pages.components.Navigation;
 import com.platts.oil.analytics.irr.uat.tasks.*;
-import com.platts.oil.analytics.irr.uat.util.MarketAnalysisStaticLoader;
+import com.platts.oil.analytics.irr.uat.util.*;
 import net.serenitybdd.screenplay.abilities.BrowseTheWeb;
 import net.serenitybdd.screenplay.actions.Click;
 import net.thucydides.core.annotations.Managed;
@@ -21,6 +21,8 @@ import java.util.List;
 import static com.platts.oil.analytics.irr.uat.model.Actors.theActorNamed;
 import static net.serenitybdd.screenplay.GivenWhenThen.seeThat;
 import static org.hamcrest.Matchers.equalTo;
+import static org.hamcrest.Matchers.samePropertyValuesAs;
+import static com.platts.oil.analytics.irr.uat.util.matchers.MarketAnalysisDataMatchers.hasSameId;
 
 /**
  * Created by jonathan_cone on 6/21/2016.
@@ -64,7 +66,8 @@ public class MarketAnalysisStepDefinitions {
         } else {
             currentArticle = articleList.get(0);
         }
-        theActorNamed(actor).should(seeThat(theDisplayedArticle, equalTo(currentArticle)));
+        theActorNamed(actor).should(seeThat(theDisplayedArticle, hasSameId(currentArticle)));
+
     }
 
     @Then("$actor sees the Market Insight index")
