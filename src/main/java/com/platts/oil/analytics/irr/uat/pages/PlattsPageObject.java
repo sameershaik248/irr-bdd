@@ -12,7 +12,7 @@ public class PlattsPageObject extends PageObject {
     }
 
     public static String getButtonJs(String selector, int item) {
-        return "return Ext.ComponentQuery.query('"+selector+"')["+item+"]";
+        return "return Ext.ComponentQuery.query('"+selector+"')["+item+"].id";
     }
 
     public static String getButtonFromItemIdJs(String xtype, String itemId) {

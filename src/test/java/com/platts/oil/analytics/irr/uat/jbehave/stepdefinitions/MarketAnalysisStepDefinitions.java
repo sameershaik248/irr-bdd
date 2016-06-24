@@ -23,6 +23,7 @@ import static net.serenitybdd.screenplay.GivenWhenThen.seeThat;
 import static org.hamcrest.Matchers.equalTo;
 import static org.hamcrest.Matchers.samePropertyValuesAs;
 import static com.platts.oil.analytics.irr.uat.util.matchers.MarketAnalysisDataMatchers.hasSameId;
+import static com.platts.oil.analytics.irr.uat.util.matchers.MarketAnalysisDataMatchers.hasSameContents;
 
 /**
  * Created by jonathan_cone on 6/21/2016.
@@ -74,7 +75,7 @@ public class MarketAnalysisStepDefinitions {
     public void i_see_the_page_index(String actor) {
         List<MarketAnalysisData> articleList = MarketAnalysisStaticLoader.getLoader().loadFromFile();
         articleList.remove(0);
-        theActorNamed(actor).should(seeThat(theDisplayedMarketIndex, equalTo(articleList)));
+        theActorNamed(actor).should(seeThat(theDisplayedMarketIndex, hasSameContents(articleList)));
     }
 
     @WhenPageOpens

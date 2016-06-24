@@ -24,7 +24,7 @@ public class MarketInsightPage extends PlattsPageObject {
             "return Ext.ComponentQuery.query('container[reference=mainAnalysisPanel]')[0].articleId;";
 
     public static final String FIRST_INDEX_ARTICLE_JS =
-            getButtonJs("marketanalysisindex analysisIndexPanel", 1);
+            getButtonJs("marketanalysisindex", 1);
 
     public static final String NUMBER_OF_ARTICLES_IN_INDEX =
             "return Ext.ComponentQuery.query('marketanalysisindex').length";
@@ -33,9 +33,12 @@ public class MarketInsightPage extends PlattsPageObject {
             "return Ext.ComponentQuery.query('marketanalysisindex')[%d].articleId";
 
     public static String INDEX_ARTICLE_TITLE_JS =
-            "return Ext.ComponentQuery.query('panel[itemId=indexTitle]')[%d].id";
+            "return Ext.ComponentQuery.query('panel[itemId=indexTitle]')[%d].body.dom.innerText";
 
     public static String INDEX_ARTICLE_DATE_JS =
-            "return Ext.ComponentQuery.query('panel[itemId=indexPubDate')[%d].id";
+            "return Ext.ComponentQuery.query('panel[itemId=indexPubDate]')[%d].body.dom.innerText";
+
+    public static String INDEX_ARTICLE_VISIBLE_JS =
+            "return Ext.ComponentQuery.query('marketanalysisindex')[%d].isVisible();";
 
 }
