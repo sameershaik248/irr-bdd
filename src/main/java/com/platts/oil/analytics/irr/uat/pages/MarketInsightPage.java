@@ -33,10 +33,10 @@ public class MarketInsightPage extends PlattsPageObject {
             "return Ext.ComponentQuery.query('marketanalysisindex')[%d].articleId";
 
     public static String INDEX_ARTICLE_TITLE_JS =
-            "return Ext.ComponentQuery.query('panel[itemId=indexTitle]')[%d].body.dom.innerText";
+            "return Ext.ComponentQuery.query('panel[itemId=indexTitle]')[%d].id";
 
     public static String INDEX_ARTICLE_DATE_JS =
-            "return Ext.ComponentQuery.query('panel[itemId=indexPubDate]')[%d].body.dom.innerText";
+            "return Ext.ComponentQuery.query('panel[itemId=indexPubDate]')[%d].id";
 
     public static String INDEX_ARTICLE_VISIBLE_JS =
             "return Ext.ComponentQuery.query('marketanalysisindex')[%d].isVisible();";

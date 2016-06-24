@@ -57,8 +57,8 @@ public class DisplayedMarketIndex implements Question<List<MarketAnalysisData>> 
     }
 
     private String getElementText(Actor actor, String js) {
-        String text = (String) BrowseTheWeb.as(actor).evaluateJavascript(js);
-        return text;
+        String id = (String) BrowseTheWeb.as(actor).evaluateJavascript(js);
+        return BrowseTheWeb.as(actor).findBy("#"+id+"-innerCt").getText();
     }
 
 }
