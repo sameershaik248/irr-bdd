@@ -5,7 +5,7 @@ import net.thucydides.core.annotations.DefaultUrl;
 /**
  * Created by jonathan_cone on 6/22/2016.
  */
-@DefaultUrl("http://nj09mhf5996.mhf.mhc:7001/B-12067/")
+@DefaultUrl("http://nj09mhf5996.mhf.mhc:7001/irr/")
 public class MarketInsightPage extends PlattsPageObject {
 
     private static final String CURRENT_ARTICLE_TITLE_XTYPE = "container";
