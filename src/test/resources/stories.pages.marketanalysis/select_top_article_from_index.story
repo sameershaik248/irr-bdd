@@ -7,7 +7,7 @@ So that I can view an older Market Insight article
 
 Scenario: Market Insight Article Selection from Index
 Given jane opens the WEA application
-Given jane is logged into the WEA application with username daniel.poulos@spglobal.com and password user
+Given jane is logged into the WEA application with username uat.user@user.com and password password
 Given jane is on the Market Insight page
 When jane selects the first article from the index
 Then jane sees the second Market Insight article

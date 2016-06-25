@@ -2,56 +2,47 @@
 <RESULTS>
     <ROW>
         <COLUMN NAME="ID"><![CDATA[c533d549d-39f8-44ce-af02-6394ed3dcaaf]]></COLUMN>
-        <COLUMN NAME="SLUG"><![CDATA[Slug 1]]></COLUMN>
+        <COLUMN NAME="SLUG"><![CDATA[WTI and Henry Hub rally, increasing returns across all plays]]></COLUMN>
         <COLUMN NAME="AUTHOR"><![CDATA[author 1]]></COLUMN>
-        <COLUMN NAME="TITLE"><![CDATA[title 1]]></COLUMN>
+        <COLUMN NAME="TITLE"><![CDATA[June IRR commentary]]></COLUMN>
         <COLUMN NAME="PUBLISHED_DATE"><![CDATA[30-JUN-16]]></COLUMN>
         <COLUMN NAME="ACTIVE"><![CDATA[1]]></COLUMN>
-        <COLUMN NAME="ANALYSIS_DATE"><![CDATA[1459543563009]]></COLUMN>
+        <COLUMN NAME="ANALYSIS_DATE"><![CDATA[1464797065000]]></COLUMN>
     </ROW>
     <ROW>
         <COLUMN NAME="ID"><![CDATA[c41319de1-7509-4745-b9f3-04a5a1b04462]]></COLUMN>
-        <COLUMN NAME="SLUG"><![CDATA[Slug 2]]></COLUMN>
+        <COLUMN NAME="SLUG"><![CDATA[Strength in WTI and Henry Hub provide some relief to North American plays]]></COLUMN>
         <COLUMN NAME="AUTHOR"><![CDATA[author 2]]></COLUMN>
-        <COLUMN NAME="TITLE"><![CDATA[title 2]]></COLUMN>
+        <COLUMN NAME="TITLE"><![CDATA[May IRR commentary]]></COLUMN>
         <COLUMN NAME="PUBLISHED_DATE"><![CDATA[29-JUN-16]]></COLUMN>
         <COLUMN NAME="ACTIVE"><![CDATA[1]]></COLUMN>
-        <COLUMN NAME="ANALYSIS_DATE"><![CDATA[1459543563008]]></COLUMN>
+        <COLUMN NAME="ANALYSIS_DATE"><![CDATA[1462118665000]]></COLUMN>
     </ROW>
     <ROW>
         <COLUMN NAME="ID"><![CDATA[cbc3eed83-c4cd-4eb5-b00f-1b9312a1a064]]></COLUMN>
-        <COLUMN NAME="SLUG"><![CDATA[Slug 3]]></COLUMN>
+        <COLUMN NAME="SLUG"><![CDATA[Month-over-month pricing remains flat, keeping IRRs relatively unchanged]]></COLUMN>
         <COLUMN NAME="AUTHOR"><![CDATA[author 3]]></COLUMN>
-        <COLUMN NAME="TITLE"><![CDATA[title 3]]></COLUMN>
+        <COLUMN NAME="TITLE"><![CDATA[April IRR commentary]]></COLUMN>
         <COLUMN NAME="PUBLISHED_DATE"><![CDATA[28-JUN-16]]></COLUMN>
         <COLUMN NAME="ACTIVE"><![CDATA[1]]></COLUMN>
-        <COLUMN NAME="ANALYSIS_DATE"><![CDATA[1459543563007]]></COLUMN>
+        <COLUMN NAME="ANALYSIS_DATE"><![CDATA[1459526665000]]></COLUMN>
     </ROW>
     <ROW>
         <COLUMN NAME="ID"><![CDATA[c66a57f86-500a-4632-8dfb-cc38d8164f33]]></COLUMN>
-        <COLUMN NAME="SLUG"><![CDATA[Slug 4]]></COLUMN>
+        <COLUMN NAME="SLUG"><![CDATA[Oil plays receive a minor bump to IRR as gas plays continue to slip]]></COLUMN>
         <COLUMN NAME="AUTHOR"><![CDATA[author 4]]></COLUMN>
-        <COLUMN NAME="TITLE"><![CDATA[title 4]]></COLUMN>
+        <COLUMN NAME="TITLE"><![CDATA[March IRR commentary]]></COLUMN>
         <COLUMN NAME="PUBLISHED_DATE"><![CDATA[27-JUN-16]]></COLUMN>
         <COLUMN NAME="ACTIVE"><![CDATA[1]]></COLUMN>
-        <COLUMN NAME="ANALYSIS_DATE"><![CDATA[1459543563006]]></COLUMN>
+        <COLUMN NAME="ANALYSIS_DATE"><![CDATA[1456848265000]]></COLUMN>
     </ROW>
     <ROW>
         <COLUMN NAME="ID"><![CDATA[c097bdfad-9322-4294-a4b5-93cd5cfda6e2]]></COLUMN>
-        <COLUMN NAME="SLUG"><![CDATA[Slug 5]]></COLUMN>
+        <COLUMN NAME="SLUG"><![CDATA[Month-on-month IRRs decline across the board as commodity prices continue to suffer]]></COLUMN>
         <COLUMN NAME="AUTHOR"><![CDATA[author 5]]></COLUMN>
-        <COLUMN NAME="TITLE"><![CDATA[title 5]]></COLUMN>
+        <COLUMN NAME="TITLE"><![CDATA[February IRR commentary]]></COLUMN>
         <COLUMN NAME="PUBLISHED_DATE"><![CDATA[26-JUN-16]]></COLUMN>
         <COLUMN NAME="ACTIVE"><![CDATA[1]]></COLUMN>
-        <COLUMN NAME="ANALYSIS_DATE"><![CDATA[1459543563005]]></COLUMN>
-    </ROW>
-    <ROW>
-        <COLUMN NAME="ID"><![CDATA[c6e4950ef-9464-4016-944c-2aeb2d801935]]></COLUMN>
-        <COLUMN NAME="SLUG"><![CDATA[Slug 6]]></COLUMN>
-        <COLUMN NAME="AUTHOR"><![CDATA[author 6]]></COLUMN>
-        <COLUMN NAME="TITLE"><![CDATA[title 6]]></COLUMN>
-        <COLUMN NAME="PUBLISHED_DATE"><![CDATA[25-JUN-16]]></COLUMN>
-        <COLUMN NAME="ACTIVE"><![CDATA[1]]></COLUMN>
-        <COLUMN NAME="ANALYSIS_DATE"><![CDATA[1459543563004]]></COLUMN>
+        <COLUMN NAME="ANALYSIS_DATE"><![CDATA[1454342665000]]></COLUMN>
     </ROW>
 </RESULTS>

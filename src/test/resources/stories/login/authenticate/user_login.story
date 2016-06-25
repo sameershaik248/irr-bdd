@@ -7,5 +7,5 @@ So that I can access the WEA tool
 
 Scenario: Login successfully
 Given jane opens the IRR application
-When jane inputs username daniel.poulos@spglobal.com and password user
+When jane inputs username uat.user@user.com and password password
 Then jane should see the multiplays view
