@@ -16,7 +16,7 @@
         <serenity.maven.version>1.1.36</serenity.maven.version>
         <serenity.jbehave.version>1.13.0</serenity.jbehave.version>
         <webdriver.driver>chrome</webdriver.driver>
-        <webdriver.chrome.driver>C:\dev\chromedriver.exe</webdriver.chrome.driver>
+        <webdriver.chrome.driver>D:\Dev\webdriver\ChromeDriver\chromedriver.exe</webdriver.chrome.driver>
     </properties>
 
     <dependencies>
