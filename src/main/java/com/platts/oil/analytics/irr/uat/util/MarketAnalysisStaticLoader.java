@@ -42,7 +42,7 @@ public class MarketAnalysisStaticLoader {
                             columns.item(1).getTextContent(),
                             columns.item(2).getTextContent(),
                             columns.item(3).getTextContent(),
-                            format.parse(columns.item(4).getTextContent()),
+                            new Date(Long.parseLong(columns.item(6).getTextContent())),
                             columns.item(5).getTextContent().equals("1"));
                     mAnalysisRows.add(row);
             }
