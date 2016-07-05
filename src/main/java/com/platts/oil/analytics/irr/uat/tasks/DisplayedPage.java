@@ -2,6 +2,7 @@ package com.platts.oil.analytics.irr.uat.tasks;
 
 import com.platts.oil.analytics.irr.uat.model.AppPages;
 import com.platts.oil.analytics.irr.uat.pages.LoginPage;
+import com.platts.oil.analytics.irr.uat.pages.components.Navigation;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Question;
 import net.serenitybdd.screenplay.abilities.BrowseTheWeb;
@@ -16,12 +17,14 @@ public class DisplayedPage implements Question<AppPages> {
     }
 
     public AppPages answeredBy(Actor actor) {
-        AppPages result;
-        if (isPanelVisible(actor, LoginPage.MULTIPLAY_PAGE_XTYPE)) {
+        AppPages result = null;
+        if (isPanelVisible(actor, Navigation.MULTIPLAY_PAGE_XTYPE)) {
             result =  AppPages.MultiPlay;
-        } else if (isPanelVisible(actor, LoginPage.SINGLEPLAY_PAGE_XTYPE)) {
+        } else if (isPanelVisible(actor, Navigation.SINGLEPLAY_PAGE_XTYPE)) {
             result =  AppPages.SinglePlay;
-        } else {
+        } else if (isPanelVisible(actor, Navigation.MARKET_INSIGHT_PAGE_XTYPE)) {
+            result = AppPages.MarketInsight;
+        } else if (isPanelVisible(actor, Navigation.LOGIN_PAGE_XTYPE)) {
             result =  AppPages.Login;
         }
         return result;

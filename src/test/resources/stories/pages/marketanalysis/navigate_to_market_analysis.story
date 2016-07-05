@@ -5,9 +5,8 @@ As a WEA user
 I want to navigate to the Market Insight page
 So that I can see the latest Market Insight article
 
-Given jane opens the WEA application
-
 Scenario: Market Insight Index View
+Given jane opens the WEA application
 Given jane is logged into the WEA application with username uat.user@user.com and password password
 When jane clicks on the Market Analysis page
 Then jane sees the latest Market Insight article

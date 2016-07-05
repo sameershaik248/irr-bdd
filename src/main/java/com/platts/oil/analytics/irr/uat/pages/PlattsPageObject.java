@@ -15,6 +15,10 @@ public class PlattsPageObject extends PageObject {
         return "return Ext.ComponentQuery.query('"+xtype+"[itemId="+itemId+"]')[0].id";
     }
 
+    public static String getComponentIdJsByXtype(String xtype) {
+        return "return Ext.ComponentQuery.query('"+xtype+"')[0].id";
+    }
+
     public static String getButtonIdJsBySelector(String selector, int item) {
         return "return Ext.ComponentQuery.query('"+selector+"')["+item+"].id";
     }
@@ -27,8 +31,8 @@ public class PlattsPageObject extends PageObject {
         return "return Ext.ComponentQuery.query('"+xtype+"[itemId="+itemId+"]').length";
     }
 
-    public static String getComponentVisibleJs(String xtype, String itemId) {
-        return "return Ext.ComponentQuery.query('"+xtype+"[itemId="+itemId+"]').isVisible()";
+    public static String getComponentLengthJsByXtype(String xtype) {
+        return "return Ext.ComponentQuery.query('"+xtype+"').length";
     }
 
 }

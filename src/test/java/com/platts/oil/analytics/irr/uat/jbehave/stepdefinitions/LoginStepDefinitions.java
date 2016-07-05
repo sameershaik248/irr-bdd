@@ -49,12 +49,11 @@ public class LoginStepDefinitions {
     }
 
     private WebDriver theBrowserBelongingTo(String actor) {
-
-        System.setProperty("http.proxyHost", "corp-hts-proxy.mhc");
-        System.setProperty("http.proxyPort", "8080");
-
-        ChromeDriverManager.getInstance().setup();
-        return new ChromeDriver();
-
+        switch (actor) {
+            case "jane" :
+                return janesBrowser;
+            default:
+                return janesBrowser;
+        }
     }
 }

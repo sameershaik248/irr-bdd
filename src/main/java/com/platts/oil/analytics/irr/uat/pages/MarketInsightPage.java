@@ -5,7 +5,7 @@ import net.thucydides.core.annotations.DefaultUrl;
 /**
  * Created by jonathan_cone on 6/22/2016.
  */
-@DefaultUrl("http://nj09mhf5996.mhf.mhc:7001/irr/")
+@DefaultUrl("http://nj09mhf5996.mhf.mhc:7001/B12231/")
 public class MarketInsightPage extends PlattsPageObject {
 
     private static final String CURRENT_ARTICLE_TITLE_XTYPE = "container";
@@ -14,7 +14,7 @@ public class MarketInsightPage extends PlattsPageObject {
             getComponentIdJsByRef(CURRENT_ARTICLE_TITLE_XTYPE, CURRENT_ARTICLE_TITLE_REFERENCE);
 
     private static final String CURRENT_ARTICLE_DATE_XTYPE = "container";
-    private static final String CURRENT_ARTICLE_DATE_REFERENCE = "publishedDate";
+    private static final String CURRENT_ARTICLE_DATE_REFERENCE = "analysisDate";
     public static final String CURRENT_ARTICLE_DATE_JS =
             getComponentIdJsByRef(CURRENT_ARTICLE_DATE_XTYPE, CURRENT_ARTICLE_DATE_REFERENCE);
 
@@ -48,9 +48,14 @@ public class MarketInsightPage extends PlattsPageObject {
     private static final String POST_ARTICLE_BUTTON_ITEMID = "postMarketInsightArticle";
     public static final String POST_ARTICLE_LENGTH_JS =
             getComponentLengthJs("button", POST_ARTICLE_BUTTON_ITEMID);
-    public static final String POST_ARTICLE_VISIBLE_JS =
-            getComponentVisibleJs("button", POST_ARTICLE_BUTTON_ITEMID);
     public static final String POST_ARTICLE_ID_JS =
             getComponentIdJsByItemId("button", POST_ARTICLE_BUTTON_ITEMID);
+
+    // Article Editor Window
+    private static final String ARTICLE_EDITOR_WINDOW_XTYPE = "marketanalysiseditor";
+    public static final String ARTICLE_EDITOR_WINDOW_LENGTH_JS =
+            getComponentLengthJsByXtype(ARTICLE_EDITOR_WINDOW_XTYPE);
+    public static final String ARTICLE_EDITOR_WINDOW_ID_JS =
+            getComponentIdJsByXtype(ARTICLE_EDITOR_WINDOW_XTYPE);
 
 }

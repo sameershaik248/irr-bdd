@@ -25,7 +25,7 @@ public class ComponentDisplayed implements Question<Boolean> {
 
     public Boolean answeredBy(Actor actor) {
         boolean displayed = false;
-        if ((Integer) BrowseTheWeb.as(actor).evaluateJavascript(jsTextLength) > 0) {
+        if ((Long) BrowseTheWeb.as(actor).evaluateJavascript(jsTextLength) > 0) {
             String id = (String) BrowseTheWeb.as(actor).evaluateJavascript(jsTextId);
             displayed = Visibility.of(Target.the("Sencha Component").locatedBy("#"+id)).viewedBy(actor).as(Boolean.class);
         }

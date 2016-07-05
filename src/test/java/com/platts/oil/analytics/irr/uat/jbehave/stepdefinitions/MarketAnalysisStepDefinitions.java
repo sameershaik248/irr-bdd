@@ -6,12 +6,14 @@ import com.platts.oil.analytics.irr.uat.pages.MarketInsightPage;
 import com.platts.oil.analytics.irr.uat.pages.components.Navigation;
 import com.platts.oil.analytics.irr.uat.tasks.*;
 import com.platts.oil.analytics.irr.uat.util.*;
+import io.github.bonigarcia.wdm.ChromeDriverManager;
 import net.thucydides.core.annotations.Managed;
 import net.thucydides.core.annotations.Steps;
 import org.jbehave.core.annotations.Given;
 import org.jbehave.core.annotations.Then;
 import org.jbehave.core.annotations.When;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 
 import java.util.List;
 
@@ -35,13 +37,14 @@ public class MarketAnalysisStepDefinitions {
 
     @Given("$actor is logged into the $app application with username $username and password $password")
     public void i_am_logged_into_wea(String actor, String app, String username, String password) {
+        System.out.println("Password: " + password);
         theActorNamed(actor).attemptsTo(LoginToApp.withUsernameAndPassword(username, password));
     }
 
     @Given("$actor is on the Market Insight page")
     public void i_am_on_the_market_insight_page(String actor) {
         theActorNamed(actor).attemptsTo(ClickSenchaButton.forComponent(Navigation.MARKET_INSIGHT_NAV_BUTTON_JS));
-        theActorNamed(actor).should(seeThat(theDisplayedPage, equalTo(AppPages.MultiPlay)));
+        theActorNamed(actor).should(seeThat(theDisplayedPage, equalTo(AppPages.MarketInsight)));
     }
 
     @When("$actor clicks on the $page page")
@@ -57,7 +60,7 @@ public class MarketAnalysisStepDefinitions {
     @Then("$actor sees the $selected Market Insight article")
     public void i_see_the_latest_market_analysis(String actor, String selected) {
         // Check that the actor is on the right page
-        theActorNamed(actor).should(seeThat(theDisplayedPage, equalTo(AppPages.MultiPlay)));
+        theActorNamed(actor).should(seeThat(theDisplayedPage, equalTo(AppPages.MarketInsight)));
 
         // Load our static data for page comparison
         List<MarketAnalysisData> articleList = MarketAnalysisStaticLoader.getLoader().loadFromFile();
