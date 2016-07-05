@@ -7,6 +7,12 @@ import com.platts.oil.analytics.irr.uat.pages.PlattsPageObject;
  */
 public class Navigation extends PlattsPageObject {
 
+    // Page Locations
+    public static final String MULTIPLAY_PAGE_XTYPE = "multiPlaysView";
+    public static final String SINGLEPLAY_PAGE_XTYPE = "playDetailsView";
+    public static final String MARKET_INSIGHT_PAGE_XTYPE = "marketAnalysisView";
+    public static final String LOGIN_PAGE_XTYPE = "login";
+
     private static final String ALL_PLAYS_NAV_BUTTON_ITEM_ID = "allPlaysBtn";
     public static final String ALL_PLAYS_NAV_BUTTON_JS =
             getButtonFromItemIdJs("button", ALL_PLAYS_NAV_BUTTON_ITEM_ID);

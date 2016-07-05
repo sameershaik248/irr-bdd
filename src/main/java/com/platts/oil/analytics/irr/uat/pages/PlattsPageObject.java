@@ -7,16 +7,28 @@ import net.serenitybdd.core.pages.PageObject;
  */
 public class PlattsPageObject extends PageObject {
 
-    public static String getComponentJs(String xtype, String reference) {
+    public static String getComponentIdJsByRef(String xtype, String reference) {
         return "return Ext.ComponentQuery.query('"+xtype+"[reference="+reference+"]')[0].id";
     }
 
-    public static String getButtonJs(String selector, int item) {
+    public static String getComponentIdJsByItemId(String xtype, String itemId) {
+        return "return Ext.ComponentQuery.query('"+xtype+"[itemId="+itemId+"]')[0].id";
+    }
+
+    public static String getButtonIdJsBySelector(String selector, int item) {
         return "return Ext.ComponentQuery.query('"+selector+"')["+item+"].id";
     }
 
-    public static String getButtonFromItemIdJs(String xtype, String itemId) {
-        return "return Ext.ComponentQuery.query('"+xtype+"[itemId="+itemId+"]')[0].id";
+    public static String getComponentIdJsByItemIdWithPlaceholder(String xtype, String itemId) {
+        return "return Ext.ComponentQuery.query('"+xtype+"[itemId="+itemId+"]')[%d].id";
+    }
+
+    public static String getComponentLengthJs(String xtype, String itemId) {
+        return "return Ext.ComponentQuery.query('"+xtype+"[itemId="+itemId+"]').length";
+    }
+
+    public static String getComponentVisibleJs(String xtype, String itemId) {
+        return "return Ext.ComponentQuery.query('"+xtype+"[itemId="+itemId+"]').isVisible()";
     }
 
 }

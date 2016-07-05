@@ -17,7 +17,5 @@ public class LoginPage extends PlattsPageObject {
     public static final String LOGIN_BUTTON_REFERENCE = "loginButton";
     public static final String LOGIN_BUTTON_XTYPE = "button";
     public static final String LOGIN_BUTTON_JS = getComponentJs(LOGIN_BUTTON_XTYPE, LOGIN_BUTTON_REFERENCE);
-    public static final String MULTIPLAY_PAGE_XTYPE = "multiPlaysView";
-    public static final String SINGLEPLAY_PAGE_XTYPE = "playDetailsView";
 
 }
