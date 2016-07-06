@@ -32,7 +32,11 @@ public class PlattsPageObject extends PageObject {
     }
 
     public static String getComponentLengthJsByXtype(String xtype) {
-        return "return Ext.ComponentQuery.query('"+xtype+"').length";
+        return "return Ext.ComponentQuery.query('"+xtype+"').length;";
+    }
+
+    public static String getComponentIdByQuery(String query) {
+        return "return Ext.ComponentQuery.query('"+query+"')[0].id;";
     }
 
 }

@@ -43,8 +43,12 @@ public class MarketAnalysisStepDefinitions {
 
     @Given("$actor is on the Market Insight page")
     public void i_am_on_the_market_insight_page(String actor) {
-        theActorNamed(actor).attemptsTo(ClickSenchaButton.forComponent(Navigation.MARKET_INSIGHT_NAV_BUTTON_JS));
         theActorNamed(actor).should(seeThat(theDisplayedPage, equalTo(AppPages.MarketInsight)));
+    }
+
+    @Given("$actor clicked on the Market Insight link")
+    public void i_clicked_on_the_market_insight_link(String actor) {
+        theActorNamed(actor).attemptsTo(ClickSenchaButton.forComponent(Navigation.MARKET_INSIGHT_NAV_BUTTON_JS));
     }
 
     @When("$actor clicks on the $page page")

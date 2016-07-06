@@ -37,14 +37,15 @@ public class MarketAnalysisStaticLoader {
                     Element eElement = (Element) nNode;
                     NodeList columns = eElement.getElementsByTagName("COLUMN");
                     DateFormat format = new SimpleDateFormat("dd-MMM-yy");
-
-                    MarketAnalysisData row = new MarketAnalysisData(columns.item(0).getTextContent(),
-                            columns.item(1).getTextContent(),
-                            columns.item(2).getTextContent(),
-                            columns.item(3).getTextContent(),
-                            new Date(Long.parseLong(columns.item(6).getTextContent())),
-                            columns.item(5).getTextContent().equals("1"));
-                    mAnalysisRows.add(row);
+                    if(columns.item(5).getTextContent().equals("1")) {
+                        MarketAnalysisData row = new MarketAnalysisData(columns.item(0).getTextContent(),
+                                columns.item(1).getTextContent(),
+                                columns.item(2).getTextContent(),
+                                columns.item(3).getTextContent(),
+                                new Date(Long.parseLong(columns.item(6).getTextContent())),
+                                columns.item(5).getTextContent().equals("1"));
+                        mAnalysisRows.add(row);
+                    }
             }
         } catch (Exception e) {
             e.printStackTrace();

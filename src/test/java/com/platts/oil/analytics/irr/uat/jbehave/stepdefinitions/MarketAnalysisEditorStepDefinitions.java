@@ -3,6 +3,7 @@ package com.platts.oil.analytics.irr.uat.jbehave.stepdefinitions;
 import com.platts.oil.analytics.irr.uat.pages.MarketInsightPage;
 import com.platts.oil.analytics.irr.uat.tasks.ClickSenchaButton;
 import com.platts.oil.analytics.irr.uat.tasks.ComponentDisplayed;
+import com.platts.oil.analytics.irr.uat.tasks.EnterTextIntoField;
 import io.github.bonigarcia.wdm.ChromeDriverManager;
 import net.thucydides.core.annotations.Managed;
 import net.thucydides.core.annotations.Steps;
@@ -36,9 +37,20 @@ public class MarketAnalysisEditorStepDefinitions {
                 MarketInsightPage.POST_ARTICLE_ID_JS), equalTo(true)));
     }
 
+    @Given("$actor sees the article editor")
+    public void i_see_the_editor(String actor) {
+        theActorNamed(actor).should(seeThat(ComponentDisplayed.displayed(MarketInsightPage.ARTICLE_EDITOR_WINDOW_LENGTH_JS,
+                MarketInsightPage.ARTICLE_EDITOR_WINDOW_ID_JS), equalTo(true)));
+    }
+
     @When("$actor clicks on the POST button")
     public void i_click_on_the_post_button(String actor) {
         theActorNamed(actor).attemptsTo(ClickSenchaButton.forComponent(MarketInsightPage.POST_ARTICLE_ID_JS));
+    }
+
+    @When("$actor enters the article data into the editor")
+    public void i_enter_data_into_the_editor(String actor) {
+        theActorNamed(actor).attemptsTo(EnterTextIntoField.thisTextForComponent("July Insights", MarketInsightPage.ARTICLE_EDITOR_TITLE_JS));
     }
 
     @Then("$actor sees the article editor")

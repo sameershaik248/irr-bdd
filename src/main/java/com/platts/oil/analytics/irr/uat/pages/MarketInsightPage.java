@@ -58,4 +58,9 @@ public class MarketInsightPage extends PlattsPageObject {
     public static final String ARTICLE_EDITOR_WINDOW_ID_JS =
             getComponentIdJsByXtype(ARTICLE_EDITOR_WINDOW_XTYPE);
 
+    // Article Editor Title Field
+    private static final String ARTICLE_EDITOR_TITLE_QUERY = "marketanalysiseditor textfield[itemId=marketanalysistitle]";
+    public static final String ARTICLE_EDITOR_TITLE_JS =
+            getComponentIdByQuery(ARTICLE_EDITOR_TITLE_QUERY);
+
 }

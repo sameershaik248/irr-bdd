@@ -1,13 +1,10 @@
 package com.platts.oil.analytics.irr.uat.tasks;
 
 import com.platts.oil.analytics.irr.uat.pages.ApplicationHomePage;
-import com.platts.oil.analytics.irr.uat.pages.LoginPage;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.abilities.BrowseTheWeb;
 import net.serenitybdd.screenplay.actions.Enter;
-import net.serenitybdd.screenplay.actions.Open;
-import net.serenitybdd.screenplay.targets.Target;
 import net.thucydides.core.annotations.Step;
 
 import static net.serenitybdd.screenplay.Tasks.instrumented;
@@ -33,7 +30,7 @@ public class EnterTextIntoField implements Task {
         actor.attemptsTo(Enter.theValue(inputText).into("#"+id+" input"));
     }
 
-    public static EnterTextIntoField thisTextForReference(String inputText, String jsText) {
+    public static EnterTextIntoField thisTextForComponent(String inputText, String jsText) {
         return instrumented(EnterTextIntoField.class, inputText, jsText);
     }
 
