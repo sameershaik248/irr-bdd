@@ -63,6 +63,12 @@ public class MarketAnalysisEditorStepDefinitions {
         theActorNamed(actor).attemptsTo(ClickSenchaButton.forComponent(MarketInsightPage.ARTICLE_EDITOR_PUBLISH_JS));
     }
 
+    @When("$actor clicks to Delete the current article")
+    public void i_click_to_delete_the_article(String actor) {
+        theActorNamed(actor).attemptsTo(ClickSenchaButton.forComponent(MarketInsightPage.DELETE_ARTICLE_ID_JS));
+        theActorNamed(actor).attemptsTo(ClickSenchaButton.forComponent(MarketInsightPage.CONFIRM_DELETE_ARTICLE_ID_JS));
+    }
+
     @Then("$actor sees the article they just published on Market Insight Page")
     public void i_see_the_published_article(String actor) {
         MarketAnalysisData sampleData = getSampleArticle();

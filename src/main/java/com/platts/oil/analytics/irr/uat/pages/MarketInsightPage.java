@@ -51,6 +51,20 @@ public class MarketInsightPage extends PlattsPageObject {
     public static final String POST_ARTICLE_ID_JS =
             getComponentIdJsByItemId("button", POST_ARTICLE_BUTTON_ITEMID);
 
+    // Delete article button
+    private static final String DELETE_ARTICLE_BUTTON_ITEMID = "deleteMarketInsightArticle";
+    public static final String DELETE_ARTICLE_LENGTH_JS =
+            getComponentLengthJs("button", DELETE_ARTICLE_BUTTON_ITEMID);
+    public static final String DELETE_ARTICLE_ID_JS =
+            getComponentIdJsByItemId("button", DELETE_ARTICLE_BUTTON_ITEMID);
+
+    // Confirm delete article button
+    private static final String CONFIRM_DELETE_ARTICLE_BUTTON_QUERY = "messagebox button[itemId=yes]";
+    public static final String CONFIRM_DELETE_ARTICLE_LENGTH_JS =
+            getComponentLengthJsByQuery(CONFIRM_DELETE_ARTICLE_BUTTON_QUERY);
+    public static final String CONFIRM_DELETE_ARTICLE_ID_JS =
+            getComponentIdByQuery(CONFIRM_DELETE_ARTICLE_BUTTON_QUERY);
+
     // Article Editor Window
     private static final String ARTICLE_EDITOR_WINDOW_XTYPE = "marketanalysiseditor";
     public static final String ARTICLE_EDITOR_WINDOW_LENGTH_JS =

@@ -18,3 +18,8 @@ Scenario: Jane enters an article into the Market Insight editor to publish conte
 Given jane sees the article editor
 When jane enters the article data into the editor and published the content
 Then jane sees the article they just published on Market Insight Page
+
+Scenario: Jane deletes the article she just entered
+Given jane is on the Market Insight page
+When jane clicks to Delete the current article
+Then jane sees the latest Market Insight article
