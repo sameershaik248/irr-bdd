@@ -39,4 +39,12 @@ public class PlattsPageObject extends PageObject {
         return "return Ext.ComponentQuery.query('"+query+"')[0].id;";
     }
 
+    public static String setTinyMceText(String editorText) {
+        return "if(tinyMCE.activeEditor) { tinyMCE.activeEditor.setContent('"+editorText+"'); }";
+    }
+
+    public static String setTextAreaTextJs(String query) {
+        return "Ext.ComponentQuery.query('"+query+"')[0].setValue('%s');";
+    }
+
 }

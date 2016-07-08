@@ -16,4 +16,5 @@ Then jane sees the article editor
 
 Scenario: Jane enters an article into the Market Insight editor to publish content
 Given jane sees the article editor
-When jane enters the article data into the editor
+When jane enters the article data into the editor and published the content
+Then jane sees the article they just published on Market Insight Page

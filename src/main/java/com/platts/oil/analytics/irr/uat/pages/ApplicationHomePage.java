@@ -6,6 +6,6 @@ import net.thucydides.core.annotations.DefaultUrl;
 /**
  * Created by jonathan_cone on 6/21/2016.
  */
-@DefaultUrl("http://nj09mhf5996.mhf.mhc:7001/B12231/")
+@DefaultUrl("http://localhost:8080/irr/")
 public class ApplicationHomePage extends PageObject {
 }

@@ -26,6 +26,21 @@ public class MarketAnalysisDataMatchers {
         };
     }
 
+    public static Matcher<MarketAnalysisData> hasSameTitle(final MarketAnalysisData expectedArticle) {
+        return new BaseMatcher<MarketAnalysisData>() {
+            @Override
+            public boolean matches(final Object item) {
+                final MarketAnalysisData article = (MarketAnalysisData) item;
+                return expectedArticle.getTitle().equals(article.getTitle());
+            }
+
+            @Override
+            public void describeTo(Description description) {
+                description.appendText("getTitle should return ").appendValue(expectedArticle.getTitle());
+            }
+        };
+    }
+
     public static Matcher<List<MarketAnalysisData>> hasSameContents(final List<MarketAnalysisData> expectedArticleList) {
         return new BaseMatcher<List<MarketAnalysisData>>() {
             @Override

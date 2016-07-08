@@ -11,6 +11,7 @@ public class MarketAnalysisData {
     private String slug;
     private String author;
     private String title;
+    private String body;
     private Date publishedDate;
     private boolean active;
 
@@ -78,5 +79,12 @@ public class MarketAnalysisData {
     public void setActive(boolean active) {
         this.active = active;
     }
+
+    public String getBody() { return body; }
+
+    public void setBody(String body) { this.body = body; }
+
+    public Date getPublishedDate() { return publishedDate; }
+
 
 }

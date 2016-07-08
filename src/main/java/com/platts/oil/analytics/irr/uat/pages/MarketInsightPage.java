@@ -5,7 +5,7 @@ import net.thucydides.core.annotations.DefaultUrl;
 /**
  * Created by jonathan_cone on 6/22/2016.
  */
-@DefaultUrl("http://nj09mhf5996.mhf.mhc:7001/B12231/")
+@DefaultUrl("http://localhost:8080/irr/")
 public class MarketInsightPage extends PlattsPageObject {
 
     private static final String CURRENT_ARTICLE_TITLE_XTYPE = "container";
@@ -62,5 +62,15 @@ public class MarketInsightPage extends PlattsPageObject {
     private static final String ARTICLE_EDITOR_TITLE_QUERY = "marketanalysiseditor textfield[itemId=marketanalysistitle]";
     public static final String ARTICLE_EDITOR_TITLE_JS =
             getComponentIdByQuery(ARTICLE_EDITOR_TITLE_QUERY);
+
+    // Article Exerpt Textarea Field
+    private static final String ARTICLE_EDITOR_EXERPT_QUERY = "marketanalysiseditor textarea[itemId=marketanalysisexerpt]";
+    public static final String ARTICLE_EDITOR_EXERPT_JS =
+            getComponentIdByQuery(ARTICLE_EDITOR_EXERPT_QUERY);
+
+    // Article Publish Button
+    private static final String ARTICLE_EDITOR_PUBLISH_QUERY = "marketanalysiseditor button[itemId=marketanalysispublish]";
+    public static final String ARTICLE_EDITOR_PUBLISH_JS =
+            getComponentIdByQuery(ARTICLE_EDITOR_PUBLISH_QUERY);
 
 }
