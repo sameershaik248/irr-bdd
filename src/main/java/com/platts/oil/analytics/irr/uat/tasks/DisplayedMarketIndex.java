@@ -41,7 +41,6 @@ public class DisplayedMarketIndex implements Question<List<MarketAnalysisData>> 
             DateFormat df = new SimpleDateFormat("d M, Y");
             publishDate = df.parse(pubDate);
         } catch (ParseException e) {
-            System.out.println(pubDate);
             publishDate = null;
         }
         marketData.setPublishedDate(publishDate);

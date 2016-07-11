@@ -37,7 +37,6 @@ public class MarketAnalysisStepDefinitions {
 
     @Given("$actor is logged into the $app application with username $username and password $password")
     public void i_am_logged_into_wea(String actor, String app, String username, String password) {
-        System.out.println("Password: " + password);
         theActorNamed(actor).attemptsTo(LoginToApp.withUsernameAndPassword(username, password));
     }
 
