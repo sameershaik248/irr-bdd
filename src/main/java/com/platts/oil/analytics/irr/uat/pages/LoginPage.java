@@ -5,7 +5,7 @@ import net.thucydides.core.annotations.DefaultUrl;
 /**
  * Created by jonathan_cone on 6/21/2016.
  */
-@DefaultUrl("http://localhost:8080/irr/")
+@DefaultUrl("http://nj09isp1085.mhf.mhc:8080/irr/")
 public class LoginPage extends PlattsPageObject {
 
     public static final String EMAIL_TEXTFIELD_REFERENCE = "userid";

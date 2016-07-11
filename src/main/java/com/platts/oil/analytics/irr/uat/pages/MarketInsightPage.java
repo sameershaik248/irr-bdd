@@ -5,7 +5,7 @@ import net.thucydides.core.annotations.DefaultUrl;
 /**
  * Created by jonathan_cone on 6/22/2016.
  */
-@DefaultUrl("http://localhost:8080/irr/")
+@DefaultUrl("http://nj09isp1085.mhf.mhc:8080/irr/")
 public class MarketInsightPage extends PlattsPageObject {
 
     private static final String CURRENT_ARTICLE_TITLE_XTYPE = "container";
@@ -64,6 +64,20 @@ public class MarketInsightPage extends PlattsPageObject {
             getComponentLengthJsByQuery(CONFIRM_DELETE_ARTICLE_BUTTON_QUERY);
     public static final String CONFIRM_DELETE_ARTICLE_ID_JS =
             getComponentIdByQuery(CONFIRM_DELETE_ARTICLE_BUTTON_QUERY);
+
+    // Messagebox
+    private static final String MESSAGEBOX_QUERY = "messagebox";
+    public static final String MESSAGEBOX_VISIBILITY_JS =
+            getComponentVisibilityByQuery(MESSAGEBOX_QUERY);
+    public static final String MESSAGE_BOX_CONTENT_JS = "return Ext.ComponentQuery.query(\"messagebox\")[0].msg.html";
+
+    // Close Editor
+    public static final String CLOSE_EDITOR_JS = "return Ext.ComponentQuery.query('marketanalysiseditor')[0].close();";
+
+    // Confirm delete article button
+    private static final String CONFIRM_ERROR_NOTICE_BUTTON_QUERY = "messagebox button[itemId=ok]";
+    public static final String CONFIRM_ERROR_NOTICE_ID_JS =
+            getComponentIdByQuery(CONFIRM_ERROR_NOTICE_BUTTON_QUERY);
 
     // Article Editor Window
     private static final String ARTICLE_EDITOR_WINDOW_XTYPE = "marketanalysiseditor";

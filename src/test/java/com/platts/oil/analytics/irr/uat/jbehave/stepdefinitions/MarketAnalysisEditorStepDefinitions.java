@@ -3,7 +3,6 @@ package com.platts.oil.analytics.irr.uat.jbehave.stepdefinitions;
 import com.platts.oil.analytics.irr.uat.model.MarketAnalysisData;
 import com.platts.oil.analytics.irr.uat.pages.MarketInsightPage;
 import com.platts.oil.analytics.irr.uat.tasks.*;
-import io.github.bonigarcia.wdm.ChromeDriverManager;
 import net.thucydides.core.annotations.Managed;
 import net.thucydides.core.annotations.Steps;
 import org.jbehave.core.annotations.Given;
@@ -51,16 +50,55 @@ public class MarketAnalysisEditorStepDefinitions {
                 MarketInsightPage.ARTICLE_EDITOR_WINDOW_ID_JS), equalTo(true)));
     }
 
+    @Then("$actor closes the editor")
+    public void i_close_the_editor(String actor) {
+        theActorNamed(actor).attemptsTo(CloseEditor.forComponent(MarketInsightPage.CLOSE_EDITOR_JS));
+    }
+
     @When("$actor clicks on the POST button")
     public void i_click_on_the_post_button(String actor) {
         theActorNamed(actor).attemptsTo(ClickSenchaButton.forComponent(MarketInsightPage.POST_ARTICLE_ID_JS));
     }
+
+    @Given("$actor opens the article editor")
+    public void i_open_the_article_editor(String actor) {
+        theActorNamed(actor).attemptsTo(ClickSenchaButton.forComponent(MarketInsightPage.POST_ARTICLE_ID_JS));
+    }
+
 
     @When("$actor enters the article data into the editor and published the content")
     public void i_enter_data_into_the_editor(String actor) {
         MarketAnalysisData sampleData = getSampleArticle();
         theActorNamed(actor).attemptsTo(InputArticleContent.doInput(sampleData));
         theActorNamed(actor).attemptsTo(ClickSenchaButton.forComponent(MarketInsightPage.ARTICLE_EDITOR_PUBLISH_JS));
+    }
+
+    @When("$actor types $input into the title field")
+    public void i_enter_input_into_the_title_field(String actor, String input) {
+        theActorNamed(actor).attemptsTo(EnterTextIntoField.thisTextForComponent(input, MarketInsightPage.ARTICLE_EDITOR_TITLE_JS));
+    }
+
+    @When("$actor types $input into the body field")
+    public void i_enter_input_into_the_body_field(String actor, String input) {
+        theActorNamed(actor).attemptsTo(EnterTextIntoTinyMce.withText(input));
+    }
+
+    @When("$actor types $input into the excerpt field")
+    public void i_enter_input_into_the_excerpt_field(String actor, String input) {
+        theActorNamed(actor).attemptsTo(EnterTextIntoTextarea.thisTextForComponent(input, MarketInsightPage.ARTICLE_EDITOR_EXERPT_JS));
+    }
+
+    @When("$actor clicks the publish button")
+    public void i_click_the_publish_button(String actor) {
+        theActorNamed(actor).attemptsTo(ClickSenchaButton.forComponent(MarketInsightPage.ARTICLE_EDITOR_PUBLISH_JS));
+    }
+
+    @Then("$actor sees the error box and it has the message $message and closes the dialog")
+    public void i_see_the_error_box_with_the_message(String actor, String message) {
+        theActorNamed(actor).should(seeThat(MessageBoxVisible.displayed(MarketInsightPage.MESSAGEBOX_VISIBILITY_JS), equalTo(true)));
+        theActorNamed(actor).should(seeThat(MessageBoxContent.displayed(MarketInsightPage.MESSAGE_BOX_CONTENT_JS), equalTo(message)));
+        theActorNamed(actor).attemptsTo(ClickSenchaButton.forComponent(MarketInsightPage.CONFIRM_ERROR_NOTICE_ID_JS));
+
     }
 
     @When("$actor clicks to Delete the current article")

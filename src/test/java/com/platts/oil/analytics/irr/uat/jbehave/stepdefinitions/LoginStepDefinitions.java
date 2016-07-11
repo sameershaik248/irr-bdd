@@ -5,7 +5,6 @@ import com.platts.oil.analytics.irr.uat.tasks.DisplayedPage;
 import com.platts.oil.analytics.irr.uat.tasks.LoginToApp;
 import com.platts.oil.analytics.irr.uat.tasks.OpenAnApp;
 
-import io.github.bonigarcia.wdm.ChromeDriverManager;
 import net.serenitybdd.screenplay.abilities.BrowseTheWeb;
 import net.thucydides.core.annotations.Managed;
 import net.thucydides.core.annotations.Pending;

@@ -43,6 +43,10 @@ public class PlattsPageObject extends PageObject {
         return "return Ext.ComponentQuery.query('"+query+"')[0].id;";
     }
 
+    public static String getComponentVisibilityByQuery(String query) {
+        return "return Ext.ComponentQuery.query('"+query+"')[0].isVisible();";
+    }
+
     public static String setTinyMceText(String editorText) {
         return "if(tinyMCE.activeEditor) { tinyMCE.activeEditor.setContent('"+editorText+"'); }";
     }
