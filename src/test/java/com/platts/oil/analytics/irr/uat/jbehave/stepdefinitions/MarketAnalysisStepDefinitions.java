@@ -6,7 +6,6 @@ import com.platts.oil.analytics.irr.uat.pages.MarketInsightPage;
 import com.platts.oil.analytics.irr.uat.pages.components.Navigation;
 import com.platts.oil.analytics.irr.uat.tasks.*;
 import com.platts.oil.analytics.irr.uat.util.*;
-import io.github.bonigarcia.wdm.ChromeDriverManager;
 import net.thucydides.core.annotations.Managed;
 import net.thucydides.core.annotations.Steps;
 import org.jbehave.core.annotations.Given;

@@ -16,7 +16,7 @@
         <serenity.maven.version>1.1.36</serenity.maven.version>
         <serenity.jbehave.version>1.13.0</serenity.jbehave.version>
         <webdriver.driver>chrome</webdriver.driver>
-        <webdriver.chrome.driver>D:\Dev\webdriver\ChromeDriver\chromedriver.exe</webdriver.chrome.driver>
+        <webdriver.chrome.driver>C:\Dev\Projects\webdrivers\chromedriver.exe</webdriver.chrome.driver>
     </properties>
 
     <dependencies>
@@ -65,11 +65,6 @@
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-chrome-driver</artifactId>
             <version>2.53.0</version>
-        </dependency>
-        <dependency>
-            <groupId>io.github.bonigarcia</groupId>
-            <artifactId>webdrivermanager</artifactId>
-            <version>1.4.5</version>
         </dependency>
     </dependencies>
 
