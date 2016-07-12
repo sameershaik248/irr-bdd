@@ -31,19 +31,9 @@ public class DisplayedMarketIndex implements Question<List<MarketAnalysisData>> 
         MarketAnalysisData marketData = new MarketAnalysisData();
         String id = (String) BrowseTheWeb.as(actor).evaluateJavascript
                 (String.format(MarketInsightPage.ARTICLE_ID_FOR_INDEX_ARTICLES, index));
-        String tjs = String.format(MarketInsightPage.INDEX_ARTICLE_TITLE_JS, index);
         String title = getElementText(actor, String.format(MarketInsightPage.INDEX_ARTICLE_TITLE_JS, index));
-        String pubDate = getElementText(actor, String.format(MarketInsightPage.INDEX_ARTICLE_DATE_JS, index));
         marketData.setId(id);
         marketData.setTitle(title);
-        Date publishDate;
-        try {
-            DateFormat df = new SimpleDateFormat("d M, Y");
-            publishDate = df.parse(pubDate);
-        } catch (ParseException e) {
-            publishDate = null;
-        }
-        marketData.setPublishedDate(publishDate);
         return marketData;
     }
 

@@ -6,7 +6,7 @@ I want to enter a new article into the analysis editor
 So that I can post new articles
 
 Scenario: Jane opens the market analysis editor
-Given jane opens the IRR application
+Given jane opens the WEA application
 Given jane is logged into the WEA application with username uat.user@user.com and password password
 Given jane clicked on the Market Insight link
 Given jane is on the Market Insight page

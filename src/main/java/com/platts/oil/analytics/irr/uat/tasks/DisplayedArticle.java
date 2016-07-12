@@ -20,19 +20,9 @@ public class DisplayedArticle implements Question<MarketAnalysisData> {
         // Create new model
         MarketAnalysisData article = new MarketAnalysisData();
         String title = getElementText(actor, MarketInsightPage.CURRENT_ARTICLE_TITLE_JS);
-        String publishedDate = getElementText(actor, MarketInsightPage.CURRENT_ARTICLE_DATE_JS);
         String articleId = (String) BrowseTheWeb.as(actor).evaluateJavascript(MarketInsightPage.CURRENT_ARTICLE_ARTICLE_ID);
-        DateFormat df = new SimpleDateFormat("EEE MMM dd YYYY HH:mm:ss zzz-zzzz (z)");
-        Date pblshDate;
-        try {
-            pblshDate = df.parse(publishedDate);
-        } catch (ParseException e) {
-            System.out.println(e);
-            pblshDate = null;
-        }
         article.setId(articleId);
         article.setTitle(title);
-        article.setPublishedDate(pblshDate);
         return article;
     }
 

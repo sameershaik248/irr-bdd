@@ -65,6 +65,20 @@ public class MarketInsightPage extends PlattsPageObject {
     public static final String CONFIRM_DELETE_ARTICLE_ID_JS =
             getComponentIdByQuery(CONFIRM_DELETE_ARTICLE_BUTTON_QUERY);
 
+    // Messagebox
+    private static final String MESSAGEBOX_QUERY = "messagebox";
+    public static final String MESSAGEBOX_VISIBILITY_JS =
+            getComponentVisibilityByQuery(MESSAGEBOX_QUERY);
+    public static final String MESSAGE_BOX_CONTENT_JS = "return Ext.ComponentQuery.query(\"messagebox\")[0].msg.html";
+
+    // Close Editor
+    public static final String CLOSE_EDITOR_JS = "return Ext.ComponentQuery.query('marketanalysiseditor')[0].close();";
+
+    // Confirm delete article button
+    private static final String CONFIRM_ERROR_NOTICE_BUTTON_QUERY = "messagebox button[itemId=ok]";
+    public static final String CONFIRM_ERROR_NOTICE_ID_JS =
+            getComponentIdByQuery(CONFIRM_ERROR_NOTICE_BUTTON_QUERY);
+
     // Article Editor Window
     private static final String ARTICLE_EDITOR_WINDOW_XTYPE = "marketanalysiseditor";
     public static final String ARTICLE_EDITOR_WINDOW_LENGTH_JS =

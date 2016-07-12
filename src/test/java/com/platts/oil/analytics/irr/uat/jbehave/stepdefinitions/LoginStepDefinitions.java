@@ -30,9 +30,9 @@ public class LoginStepDefinitions {
 
     @Steps DisplayedPage theDisplayedPage;
 
-    @Given("$actor opens the $app application")
+    @Given("$actor opens the WEA application")
     @Pending
-    public void i_open_the_app_application(String actor, String app) throws Throwable {
+    public void i_open_the_app_application(String actor) throws Throwable {
         theActorNamed(actor).can(BrowseTheWeb.with(theBrowserBelongingTo(actor)));
         theActorNamed(actor).attemptsTo(OpenAnApp.theApp("WEA"));
     }

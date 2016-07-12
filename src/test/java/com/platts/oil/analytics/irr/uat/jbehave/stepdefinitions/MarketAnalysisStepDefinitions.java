@@ -34,8 +34,8 @@ public class MarketAnalysisStepDefinitions {
     @Steps DisplayedMarketIndex theDisplayedMarketIndex;
     @Steps DisplayedPage theDisplayedPage;
 
-    @Given("$actor is logged into the $app application with username $username and password $password")
-    public void i_am_logged_into_wea(String actor, String app, String username, String password) {
+    @Given("$actor is logged into the WEA application with username $username and password $password")
+    public void i_am_logged_into_wea(String actor, String username, String password) {
         theActorNamed(actor).attemptsTo(LoginToApp.withUsernameAndPassword(username, password));
     }
 
@@ -49,8 +49,8 @@ public class MarketAnalysisStepDefinitions {
         theActorNamed(actor).attemptsTo(ClickSenchaButton.forComponent(Navigation.MARKET_INSIGHT_NAV_BUTTON_JS));
     }
 
-    @When("$actor clicks on the $page page")
-    public void i_click_on_the_page(String actor, String page) {
+    @When("$actor clicks on the Market Insight page")
+    public void i_click_on_the_page(String actor) {
         theActorNamed(actor).attemptsTo(ClickSenchaButton.forComponent(Navigation.MARKET_INSIGHT_NAV_BUTTON_JS));
     }
 
