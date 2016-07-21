@@ -1,5 +1,6 @@
 package com.platts.oil.analytics.irr.uat.tasks;
 
+import net.serenitybdd.core.annotations.findby.By;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.abilities.BrowseTheWeb;

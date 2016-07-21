@@ -1,6 +1,1032 @@
 <?xml version='1.0' ?>
 <RESULTS>
     <ROW>
+        <COLUMN NAME="ID"><![CDATA[382827C69D65392CE0530061CE0AD30F]]></COLUMN>
+        <COLUMN NAME="SLUG"><![CDATA[new article ]]></COLUMN>
+        <COLUMN NAME="AUTHOR"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="TITLE"><![CDATA[testing article upload issue]]></COLUMN>
+        <COLUMN NAME="PUBLISHED_DATE"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="ACTIVE"><![CDATA[0]]></COLUMN>
+        <COLUMN NAME="ANALYSIS_DATE"><![CDATA[1469115705758]]></COLUMN>
+        <COLUMN NAME="AUTHOR_ID"><![CDATA[1019]]></COLUMN>
+        <COLUMN NAME="DELETED_BY"><![CDATA[1019]]></COLUMN>
+        <COLUMN NAME="DELETED_DATE"><![CDATA[21-JUL-16]]></COLUMN>
+    </ROW>
+    <ROW>
+        <COLUMN NAME="ID"><![CDATA[38280D8DCC3A3717E0530061CE0AEE8B]]></COLUMN>
+        <COLUMN NAME="SLUG"><![CDATA[â?¢ Oil plays receive a minor bump to IRR as gas plays continue to slip
+â?¢ Marcellus Wet has been split into two separate plays, to account for multiple natural gas price points
+â?¢ As the STACK play develops, returns are proving to be impressive]]></COLUMN>
+        <COLUMN NAME="AUTHOR"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="TITLE"><![CDATA[July IRR Commentary]]></COLUMN>
+        <COLUMN NAME="PUBLISHED_DATE"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="ACTIVE"><![CDATA[0]]></COLUMN>
+        <COLUMN NAME="ANALYSIS_DATE"><![CDATA[1469115265668]]></COLUMN>
+        <COLUMN NAME="AUTHOR_ID"><![CDATA[11]]></COLUMN>
+        <COLUMN NAME="DELETED_BY"><![CDATA[11]]></COLUMN>
+        <COLUMN NAME="DELETED_DATE"><![CDATA[21-JUL-16]]></COLUMN>
+    </ROW>
+    <ROW>
+        <COLUMN NAME="ID"><![CDATA[3827DF4409536E6CE0530061CE0AA4BC]]></COLUMN>
+        <COLUMN NAME="SLUG"><![CDATA[Stay Home, Order Take-Out, And Fondle Your Gold - John Rubino]]></COLUMN>
+        <COLUMN NAME="AUTHOR"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="TITLE"><![CDATA[Stay Home, Order Take-Out, And Fondle Your Gold]]></COLUMN>
+        <COLUMN NAME="PUBLISHED_DATE"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="ACTIVE"><![CDATA[1]]></COLUMN>
+        <COLUMN NAME="ANALYSIS_DATE"><![CDATA[1469114626436]]></COLUMN>
+        <COLUMN NAME="AUTHOR_ID"><![CDATA[1064]]></COLUMN>
+        <COLUMN NAME="DELETED_BY"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="DELETED_DATE"><![CDATA[]]></COLUMN>
+    </ROW>
+    <ROW>
+        <COLUMN NAME="ID"><![CDATA[3827DF4409526E6CE0530061CE0AA4BC]]></COLUMN>
+        <COLUMN NAME="SLUG"><![CDATA[Existing Home Prices Hit Record High As Sales Growth Slowest In 4 Months]]></COLUMN>
+        <COLUMN NAME="AUTHOR"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="TITLE"><![CDATA[Chrome Test]]></COLUMN>
+        <COLUMN NAME="PUBLISHED_DATE"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="ACTIVE"><![CDATA[1]]></COLUMN>
+        <COLUMN NAME="ANALYSIS_DATE"><![CDATA[1469114489181]]></COLUMN>
+        <COLUMN NAME="AUTHOR_ID"><![CDATA[1064]]></COLUMN>
+        <COLUMN NAME="DELETED_BY"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="DELETED_DATE"><![CDATA[]]></COLUMN>
+    </ROW>
+    <ROW>
+        <COLUMN NAME="ID"><![CDATA[3827C97D33A16E6AE0530061CE0A8D1D]]></COLUMN>
+        <COLUMN NAME="SLUG"><![CDATA[Issue has been fixed]]></COLUMN>
+        <COLUMN NAME="AUTHOR"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="TITLE"><![CDATA[Fixed IE Issue on Upload]]></COLUMN>
+        <COLUMN NAME="PUBLISHED_DATE"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="ACTIVE"><![CDATA[1]]></COLUMN>
+        <COLUMN NAME="ANALYSIS_DATE"><![CDATA[1469114123812]]></COLUMN>
+        <COLUMN NAME="AUTHOR_ID"><![CDATA[1064]]></COLUMN>
+        <COLUMN NAME="DELETED_BY"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="DELETED_DATE"><![CDATA[]]></COLUMN>
+    </ROW>
+    <ROW>
+        <COLUMN NAME="ID"><![CDATA[3827B03139795868E0530061CE0A7F0E]]></COLUMN>
+        <COLUMN NAME="SLUG"><![CDATA[IE Test]]></COLUMN>
+        <COLUMN NAME="AUTHOR"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="TITLE"><![CDATA[IE Test]]></COLUMN>
+        <COLUMN NAME="PUBLISHED_DATE"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="ACTIVE"><![CDATA[0]]></COLUMN>
+        <COLUMN NAME="ANALYSIS_DATE"><![CDATA[1469113699388]]></COLUMN>
+        <COLUMN NAME="AUTHOR_ID"><![CDATA[1064]]></COLUMN>
+        <COLUMN NAME="DELETED_BY"><![CDATA[1064]]></COLUMN>
+        <COLUMN NAME="DELETED_DATE"><![CDATA[21-JUL-16]]></COLUMN>
+    </ROW>
+    <ROW>
+        <COLUMN NAME="ID"><![CDATA[38275734308A36EAE0530161CE0AC999]]></COLUMN>
+        <COLUMN NAME="SLUG"><![CDATA[• Oil plays receive a minor bump to IRR as gas plays continue to slip
+• Marcellus Wet has been split into two separate plays, to account for multiple natural gas price points
+• As the STACK play develops, returns are proving to be impressive]]></COLUMN>
+        <COLUMN NAME="AUTHOR"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="TITLE"><![CDATA[July IRR Commentary]]></COLUMN>
+        <COLUMN NAME="PUBLISHED_DATE"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="ACTIVE"><![CDATA[0]]></COLUMN>
+        <COLUMN NAME="ANALYSIS_DATE"><![CDATA[1469112206492]]></COLUMN>
+        <COLUMN NAME="AUTHOR_ID"><![CDATA[11]]></COLUMN>
+        <COLUMN NAME="DELETED_BY"><![CDATA[11]]></COLUMN>
+        <COLUMN NAME="DELETED_DATE"><![CDATA[21-JUL-16]]></COLUMN>
+    </ROW>
+    <ROW>
+        <COLUMN NAME="ID"><![CDATA[3826B1409FF236E4E0530161CE0AE348]]></COLUMN>
+        <COLUMN NAME="SLUG"><![CDATA[• Oil plays receive a minor bump to IRR as gas plays continue to slip
+• Marcellus Wet has been split into two separate plays, to account for multiple natural gas price points
+• As the STACK play develops, returns are proving to be impressive]]></COLUMN>
+        <COLUMN NAME="AUTHOR"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="TITLE"><![CDATA[July IRR Commentary]]></COLUMN>
+        <COLUMN NAME="PUBLISHED_DATE"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="ACTIVE"><![CDATA[0]]></COLUMN>
+        <COLUMN NAME="ANALYSIS_DATE"><![CDATA[1469109422291]]></COLUMN>
+        <COLUMN NAME="AUTHOR_ID"><![CDATA[11]]></COLUMN>
+        <COLUMN NAME="DELETED_BY"><![CDATA[11]]></COLUMN>
+        <COLUMN NAME="DELETED_DATE"><![CDATA[21-JUL-16]]></COLUMN>
+    </ROW>
+    <ROW>
+        <COLUMN NAME="ID"><![CDATA[38256B663B700F94E0530061CE0A2B24]]></COLUMN>
+        <COLUMN NAME="SLUG"><![CDATA[with PDF]]></COLUMN>
+        <COLUMN NAME="AUTHOR"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="TITLE"><![CDATA[new]]></COLUMN>
+        <COLUMN NAME="PUBLISHED_DATE"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="ACTIVE"><![CDATA[0]]></COLUMN>
+        <COLUMN NAME="ANALYSIS_DATE"><![CDATA[1469103955390]]></COLUMN>
+        <COLUMN NAME="AUTHOR_ID"><![CDATA[1019]]></COLUMN>
+        <COLUMN NAME="DELETED_BY"><![CDATA[1064]]></COLUMN>
+        <COLUMN NAME="DELETED_DATE"><![CDATA[21-JUL-16]]></COLUMN>
+    </ROW>
+    <ROW>
+        <COLUMN NAME="ID"><![CDATA[38255964C3F76C06E0530161CE0AFB27]]></COLUMN>
+        <COLUMN NAME="SLUG"><![CDATA[testing new article in IE adding PDF file]]></COLUMN>
+        <COLUMN NAME="AUTHOR"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="TITLE"><![CDATA[Test Article in IE]]></COLUMN>
+        <COLUMN NAME="PUBLISHED_DATE"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="ACTIVE"><![CDATA[0]]></COLUMN>
+        <COLUMN NAME="ANALYSIS_DATE"><![CDATA[1469103653303]]></COLUMN>
+        <COLUMN NAME="AUTHOR_ID"><![CDATA[1019]]></COLUMN>
+        <COLUMN NAME="DELETED_BY"><![CDATA[1064]]></COLUMN>
+        <COLUMN NAME="DELETED_DATE"><![CDATA[21-JUL-16]]></COLUMN>
+    </ROW>
+    <ROW>
+        <COLUMN NAME="ID"><![CDATA[3825562ADF971E99E0530061CE0AFC79]]></COLUMN>
+        <COLUMN NAME="SLUG"><![CDATA[testing new article in IE adding PDF file]]></COLUMN>
+        <COLUMN NAME="AUTHOR"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="TITLE"><![CDATA[Test Article in IE]]></COLUMN>
+        <COLUMN NAME="PUBLISHED_DATE"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="ACTIVE"><![CDATA[0]]></COLUMN>
+        <COLUMN NAME="ANALYSIS_DATE"><![CDATA[1469103599170]]></COLUMN>
+        <COLUMN NAME="AUTHOR_ID"><![CDATA[1019]]></COLUMN>
+        <COLUMN NAME="DELETED_BY"><![CDATA[1064]]></COLUMN>
+        <COLUMN NAME="DELETED_DATE"><![CDATA[21-JUL-16]]></COLUMN>
+    </ROW>
+    <ROW>
+        <COLUMN NAME="ID"><![CDATA[38254BDCBCDB4537E0530161CE0A0BB6]]></COLUMN>
+        <COLUMN NAME="SLUG"><![CDATA[adding PDF to new article]]></COLUMN>
+        <COLUMN NAME="AUTHOR"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="TITLE"><![CDATA[posting article ]]></COLUMN>
+        <COLUMN NAME="PUBLISHED_DATE"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="ACTIVE"><![CDATA[0]]></COLUMN>
+        <COLUMN NAME="ANALYSIS_DATE"><![CDATA[1469103426280]]></COLUMN>
+        <COLUMN NAME="AUTHOR_ID"><![CDATA[4]]></COLUMN>
+        <COLUMN NAME="DELETED_BY"><![CDATA[1064]]></COLUMN>
+        <COLUMN NAME="DELETED_DATE"><![CDATA[21-JUL-16]]></COLUMN>
+    </ROW>
+    <ROW>
+        <COLUMN NAME="ID"><![CDATA[381A42DD6BD419D7E0530061CE0A2FF0]]></COLUMN>
+        <COLUMN NAME="SLUG"><![CDATA[Henry Hub 12-month forward curve breaks $3.00/MMBtu ]]></COLUMN>
+        <COLUMN NAME="AUTHOR"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="TITLE"><![CDATA[July 2016 Market Insight]]></COLUMN>
+        <COLUMN NAME="PUBLISHED_DATE"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="ACTIVE"><![CDATA[1]]></COLUMN>
+        <COLUMN NAME="ANALYSIS_DATE"><![CDATA[1469056030698]]></COLUMN>
+        <COLUMN NAME="AUTHOR_ID"><![CDATA[1009]]></COLUMN>
+        <COLUMN NAME="DELETED_BY"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="DELETED_DATE"><![CDATA[]]></COLUMN>
+    </ROW>
+    <ROW>
+        <COLUMN NAME="ID"><![CDATA[381A3767533A2AD9E0530161CE0AF003]]></COLUMN>
+        <COLUMN NAME="SLUG"><![CDATA[WTI and Henry Hub rally, increasing returns across all plays]]></COLUMN>
+        <COLUMN NAME="AUTHOR"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="TITLE"><![CDATA[June 2016 Market Insight]]></COLUMN>
+        <COLUMN NAME="PUBLISHED_DATE"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="ACTIVE"><![CDATA[1]]></COLUMN>
+        <COLUMN NAME="ANALYSIS_DATE"><![CDATA[1469055838407]]></COLUMN>
+        <COLUMN NAME="AUTHOR_ID"><![CDATA[1009]]></COLUMN>
+        <COLUMN NAME="DELETED_BY"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="DELETED_DATE"><![CDATA[]]></COLUMN>
+    </ROW>
+    <ROW>
+        <COLUMN NAME="ID"><![CDATA[381A2D6E81E95500E0530161CE0A68D2]]></COLUMN>
+        <COLUMN NAME="SLUG"><![CDATA[Strength in WTI and Henry Hub provide some relief to North American plays]]></COLUMN>
+        <COLUMN NAME="AUTHOR"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="TITLE"><![CDATA[May 2016 Market Insight]]></COLUMN>
+        <COLUMN NAME="PUBLISHED_DATE"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="ACTIVE"><![CDATA[1]]></COLUMN>
+        <COLUMN NAME="ANALYSIS_DATE"><![CDATA[1469055671106]]></COLUMN>
+        <COLUMN NAME="AUTHOR_ID"><![CDATA[1009]]></COLUMN>
+        <COLUMN NAME="DELETED_BY"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="DELETED_DATE"><![CDATA[]]></COLUMN>
+    </ROW>
+    <ROW>
+        <COLUMN NAME="ID"><![CDATA[38192442EC162667E0530161CE0A236F]]></COLUMN>
+        <COLUMN NAME="SLUG"><![CDATA[Month-over-month pricing remains flat, keeping IRRs relatively unchanged]]></COLUMN>
+        <COLUMN NAME="AUTHOR"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="TITLE"><![CDATA[April 2016 Market Insight]]></COLUMN>
+        <COLUMN NAME="PUBLISHED_DATE"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="ACTIVE"><![CDATA[1]]></COLUMN>
+        <COLUMN NAME="ANALYSIS_DATE"><![CDATA[1469055413433]]></COLUMN>
+        <COLUMN NAME="AUTHOR_ID"><![CDATA[1009]]></COLUMN>
+        <COLUMN NAME="DELETED_BY"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="DELETED_DATE"><![CDATA[]]></COLUMN>
+    </ROW>
+    <ROW>
+        <COLUMN NAME="ID"><![CDATA[381A13B955E871B6E0530061CE0AA104]]></COLUMN>
+        <COLUMN NAME="SLUG"><![CDATA[Oil plays receive a minor bump to IRR as gas plays continue to slip]]></COLUMN>
+        <COLUMN NAME="AUTHOR"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="TITLE"><![CDATA[March 2016 Market Insight]]></COLUMN>
+        <COLUMN NAME="PUBLISHED_DATE"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="ACTIVE"><![CDATA[1]]></COLUMN>
+        <COLUMN NAME="ANALYSIS_DATE"><![CDATA[1469055239802]]></COLUMN>
+        <COLUMN NAME="AUTHOR_ID"><![CDATA[1009]]></COLUMN>
+        <COLUMN NAME="DELETED_BY"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="DELETED_DATE"><![CDATA[]]></COLUMN>
+    </ROW>
+    <ROW>
+        <COLUMN NAME="ID"><![CDATA[381A08138DA371ACE0530061CE0A1D97]]></COLUMN>
+        <COLUMN NAME="SLUG"><![CDATA[Month-on-month IRRs decline across the board as commodity prices continue to suffer]]></COLUMN>
+        <COLUMN NAME="AUTHOR"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="TITLE"><![CDATA[February 2016 Market Insight]]></COLUMN>
+        <COLUMN NAME="PUBLISHED_DATE"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="ACTIVE"><![CDATA[1]]></COLUMN>
+        <COLUMN NAME="ANALYSIS_DATE"><![CDATA[1469055044388]]></COLUMN>
+        <COLUMN NAME="AUTHOR_ID"><![CDATA[1009]]></COLUMN>
+        <COLUMN NAME="DELETED_BY"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="DELETED_DATE"><![CDATA[]]></COLUMN>
+    </ROW>
+    <ROW>
+        <COLUMN NAME="ID"><![CDATA[3819EAE57EB604D8E0530061CE0AD619]]></COLUMN>
+        <COLUMN NAME="SLUG"><![CDATA[2015 Price Collapse Outweighs Efficiency Gains]]></COLUMN>
+        <COLUMN NAME="AUTHOR"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="TITLE"><![CDATA[January 2016 Market Insight]]></COLUMN>
+        <COLUMN NAME="PUBLISHED_DATE"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="ACTIVE"><![CDATA[1]]></COLUMN>
+        <COLUMN NAME="ANALYSIS_DATE"><![CDATA[1469054554712]]></COLUMN>
+        <COLUMN NAME="AUTHOR_ID"><![CDATA[1009]]></COLUMN>
+        <COLUMN NAME="DELETED_BY"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="DELETED_DATE"><![CDATA[]]></COLUMN>
+    </ROW>
+    <ROW>
+        <COLUMN NAME="ID"><![CDATA[381925CD1FBB0FD8E0530061CE0A8257]]></COLUMN>
+        <COLUMN NAME="SLUG"><![CDATA[2015 Price Collapse Outweighs Efficiency Gains]]></COLUMN>
+        <COLUMN NAME="AUTHOR"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="TITLE"><![CDATA[January 2016 IRR commentary]]></COLUMN>
+        <COLUMN NAME="PUBLISHED_DATE"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="ACTIVE"><![CDATA[0]]></COLUMN>
+        <COLUMN NAME="ANALYSIS_DATE"><![CDATA[1469051248121]]></COLUMN>
+        <COLUMN NAME="AUTHOR_ID"><![CDATA[1009]]></COLUMN>
+        <COLUMN NAME="DELETED_BY"><![CDATA[1009]]></COLUMN>
+        <COLUMN NAME="DELETED_DATE"><![CDATA[20-JUL-16]]></COLUMN>
+    </ROW>
+    <ROW>
+        <COLUMN NAME="ID"><![CDATA[38192442EC152667E0530161CE0A236F]]></COLUMN>
+        <COLUMN NAME="SLUG"><![CDATA[2015 Price Collapse Outweighs Efficiency Gains]]></COLUMN>
+        <COLUMN NAME="AUTHOR"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="TITLE"><![CDATA[January 2016 IRR commentary]]></COLUMN>
+        <COLUMN NAME="PUBLISHED_DATE"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="ACTIVE"><![CDATA[0]]></COLUMN>
+        <COLUMN NAME="ANALYSIS_DATE"><![CDATA[1469051222287]]></COLUMN>
+        <COLUMN NAME="AUTHOR_ID"><![CDATA[1009]]></COLUMN>
+        <COLUMN NAME="DELETED_BY"><![CDATA[1009]]></COLUMN>
+        <COLUMN NAME="DELETED_DATE"><![CDATA[20-JUL-16]]></COLUMN>
+    </ROW>
+    <ROW>
+        <COLUMN NAME="ID"><![CDATA[38192391EB481D36E0530161CE0AF3B2]]></COLUMN>
+        <COLUMN NAME="SLUG"><![CDATA[2015 Price Collapse Outweighs Efficiency Gains]]></COLUMN>
+        <COLUMN NAME="AUTHOR"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="TITLE"><![CDATA[January 2016 IRR commentary]]></COLUMN>
+        <COLUMN NAME="PUBLISHED_DATE"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="ACTIVE"><![CDATA[0]]></COLUMN>
+        <COLUMN NAME="ANALYSIS_DATE"><![CDATA[1469051210687]]></COLUMN>
+        <COLUMN NAME="AUTHOR_ID"><![CDATA[1009]]></COLUMN>
+        <COLUMN NAME="DELETED_BY"><![CDATA[1009]]></COLUMN>
+        <COLUMN NAME="DELETED_DATE"><![CDATA[20-JUL-16]]></COLUMN>
+    </ROW>
+    <ROW>
+        <COLUMN NAME="ID"><![CDATA[381914711DE31A0AE0530161CE0A0661]]></COLUMN>
+        <COLUMN NAME="SLUG"><![CDATA[Northeast Dry IP Rates Continue to Climb ]]></COLUMN>
+        <COLUMN NAME="AUTHOR"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="TITLE"><![CDATA[December IRR commentary]]></COLUMN>
+        <COLUMN NAME="PUBLISHED_DATE"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="ACTIVE"><![CDATA[0]]></COLUMN>
+        <COLUMN NAME="ANALYSIS_DATE"><![CDATA[1469050956879]]></COLUMN>
+        <COLUMN NAME="AUTHOR_ID"><![CDATA[1009]]></COLUMN>
+        <COLUMN NAME="DELETED_BY"><![CDATA[1009]]></COLUMN>
+        <COLUMN NAME="DELETED_DATE"><![CDATA[20-JUL-16]]></COLUMN>
+    </ROW>
+    <ROW>
+        <COLUMN NAME="ID"><![CDATA[3819085068631B53E0530061CE0A2587]]></COLUMN>
+        <COLUMN NAME="SLUG"><![CDATA[Henry Tests $2 Handle: Gas-Rich Plays Suffer ]]></COLUMN>
+        <COLUMN NAME="AUTHOR"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="TITLE"><![CDATA[November IRR commentary]]></COLUMN>
+        <COLUMN NAME="PUBLISHED_DATE"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="ACTIVE"><![CDATA[0]]></COLUMN>
+        <COLUMN NAME="ANALYSIS_DATE"><![CDATA[1469050764857]]></COLUMN>
+        <COLUMN NAME="AUTHOR_ID"><![CDATA[1009]]></COLUMN>
+        <COLUMN NAME="DELETED_BY"><![CDATA[1009]]></COLUMN>
+        <COLUMN NAME="DELETED_DATE"><![CDATA[20-JUL-16]]></COLUMN>
+    </ROW>
+    <ROW>
+        <COLUMN NAME="ID"><![CDATA[3819085068621B53E0530061CE0A2587]]></COLUMN>
+        <COLUMN NAME="SLUG"><![CDATA[Henry Tests $2 Handle: Gas-Rich Plays Suffer ]]></COLUMN>
+        <COLUMN NAME="AUTHOR"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="TITLE"><![CDATA[November IRR commentary]]></COLUMN>
+        <COLUMN NAME="PUBLISHED_DATE"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="ACTIVE"><![CDATA[0]]></COLUMN>
+        <COLUMN NAME="ANALYSIS_DATE"><![CDATA[1469050753407]]></COLUMN>
+        <COLUMN NAME="AUTHOR_ID"><![CDATA[1009]]></COLUMN>
+        <COLUMN NAME="DELETED_BY"><![CDATA[1009]]></COLUMN>
+        <COLUMN NAME="DELETED_DATE"><![CDATA[20-JUL-16]]></COLUMN>
+    </ROW>
+    <ROW>
+        <COLUMN NAME="ID"><![CDATA[38183FDA8C2E234FE0530161CE0AE2EB]]></COLUMN>
+        <COLUMN NAME="SLUG"><![CDATA[IRR – Texas Continues to Lead the Stack]]></COLUMN>
+        <COLUMN NAME="AUTHOR"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="TITLE"><![CDATA[October IRR commentary]]></COLUMN>
+        <COLUMN NAME="PUBLISHED_DATE"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="ACTIVE"><![CDATA[0]]></COLUMN>
+        <COLUMN NAME="ANALYSIS_DATE"><![CDATA[1469047390218]]></COLUMN>
+        <COLUMN NAME="AUTHOR_ID"><![CDATA[1009]]></COLUMN>
+        <COLUMN NAME="DELETED_BY"><![CDATA[1009]]></COLUMN>
+        <COLUMN NAME="DELETED_DATE"><![CDATA[20-JUL-16]]></COLUMN>
+    </ROW>
+    <ROW>
+        <COLUMN NAME="ID"><![CDATA[37EDAB31C40559AEE0530061CE0AC726]]></COLUMN>
+        <COLUMN NAME="SLUG"><![CDATA[woieuroaiw ]]></COLUMN>
+        <COLUMN NAME="AUTHOR"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="TITLE"><![CDATA[weruwoeiru]]></COLUMN>
+        <COLUMN NAME="PUBLISHED_DATE"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="ACTIVE"><![CDATA[0]]></COLUMN>
+        <COLUMN NAME="ANALYSIS_DATE"><![CDATA[1469047344162]]></COLUMN>
+        <COLUMN NAME="AUTHOR_ID"><![CDATA[7]]></COLUMN>
+        <COLUMN NAME="DELETED_BY"><![CDATA[1009]]></COLUMN>
+        <COLUMN NAME="DELETED_DATE"><![CDATA[20-JUL-16]]></COLUMN>
+    </ROW>
+    <ROW>
+        <COLUMN NAME="ID"><![CDATA[38182E4A04B52353E0530161CE0AD111]]></COLUMN>
+        <COLUMN NAME="SLUG"><![CDATA[• Oil plays receive a minor bump to IRR as gas plays continue to slip
+• Marcellus Wet has been split into two separate plays, to account for multiple natural gas price points
+• As the STACK play develops, returns are proving to be impressive]]></COLUMN>
+        <COLUMN NAME="AUTHOR"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="TITLE"><![CDATA[July IRR Commentary]]></COLUMN>
+        <COLUMN NAME="PUBLISHED_DATE"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="ACTIVE"><![CDATA[0]]></COLUMN>
+        <COLUMN NAME="ANALYSIS_DATE"><![CDATA[1469047095550]]></COLUMN>
+        <COLUMN NAME="AUTHOR_ID"><![CDATA[11]]></COLUMN>
+        <COLUMN NAME="DELETED_BY"><![CDATA[11]]></COLUMN>
+        <COLUMN NAME="DELETED_DATE"><![CDATA[20-JUL-16]]></COLUMN>
+    </ROW>
+    <ROW>
+        <COLUMN NAME="ID"><![CDATA[38181DABBB063799E0530061CE0A3B52]]></COLUMN>
+        <COLUMN NAME="SLUG"><![CDATA[• Oil plays receive a minor bump to IRR as gas plays continue to slip
+• Marcellus Wet has been split into two separate plays, to account for multiple natural gas price points
+• As the STACK play develops, returns are proving to be impressive]]></COLUMN>
+        <COLUMN NAME="AUTHOR"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="TITLE"><![CDATA[July IRR Commentary]]></COLUMN>
+        <COLUMN NAME="PUBLISHED_DATE"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="ACTIVE"><![CDATA[0]]></COLUMN>
+        <COLUMN NAME="ANALYSIS_DATE"><![CDATA[1469046816741]]></COLUMN>
+        <COLUMN NAME="AUTHOR_ID"><![CDATA[11]]></COLUMN>
+        <COLUMN NAME="DELETED_BY"><![CDATA[11]]></COLUMN>
+        <COLUMN NAME="DELETED_DATE"><![CDATA[20-JUL-16]]></COLUMN>
+    </ROW>
+    <ROW>
+        <COLUMN NAME="ID"><![CDATA[381784D8D7C16F00E0530161CE0A3BA7]]></COLUMN>
+        <COLUMN NAME="SLUG"><![CDATA[• Oil plays receive a minor bump to IRR as gas plays continue to slip
+• Marcellus Wet has been split into two separate plays, to account for multiple natural gas price points
+• As the STACK play develops, returns are proving to be impressive]]></COLUMN>
+        <COLUMN NAME="AUTHOR"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="TITLE"><![CDATA[July IRR Commentary]]></COLUMN>
+        <COLUMN NAME="PUBLISHED_DATE"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="ACTIVE"><![CDATA[0]]></COLUMN>
+        <COLUMN NAME="ANALYSIS_DATE"><![CDATA[1469044252775]]></COLUMN>
+        <COLUMN NAME="AUTHOR_ID"><![CDATA[11]]></COLUMN>
+        <COLUMN NAME="DELETED_BY"><![CDATA[11]]></COLUMN>
+        <COLUMN NAME="DELETED_DATE"><![CDATA[20-JUL-16]]></COLUMN>
+    </ROW>
+    <ROW>
+        <COLUMN NAME="ID"><![CDATA[38176F4C22416E41E0530061CE0AF2D0]]></COLUMN>
+        <COLUMN NAME="SLUG"><![CDATA[Gingerbread bonbon tart candy canes caramels marzipan pie. Oat cake liquorice jelly-o chocolate cake wafer dragée oat cake soufflé. Marzipan chocolate oat cake candy. Pudding ice cream candy gingerbread jelly-o toffee soufflé brownie.]]></COLUMN>
+        <COLUMN NAME="AUTHOR"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="TITLE"><![CDATA[New Cupcake News Article]]></COLUMN>
+        <COLUMN NAME="PUBLISHED_DATE"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="ACTIVE"><![CDATA[0]]></COLUMN>
+        <COLUMN NAME="ANALYSIS_DATE"><![CDATA[1469043891247]]></COLUMN>
+        <COLUMN NAME="AUTHOR_ID"><![CDATA[4]]></COLUMN>
+        <COLUMN NAME="DELETED_BY"><![CDATA[1009]]></COLUMN>
+        <COLUMN NAME="DELETED_DATE"><![CDATA[20-JUL-16]]></COLUMN>
+    </ROW>
+    <ROW>
+        <COLUMN NAME="ID"><![CDATA[3817096760FF66B6E0530061CE0AA982]]></COLUMN>
+        <COLUMN NAME="SLUG"><![CDATA[• Oil plays receive a minor bump to IRR as gas plays continue to slip
+• Marcellus Wet has been split into two separate plays, to account for multiple natural gas price points
+• As the STACK play develops, returns are proving to be impressive]]></COLUMN>
+        <COLUMN NAME="AUTHOR"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="TITLE"><![CDATA[July IRR Commentary]]></COLUMN>
+        <COLUMN NAME="PUBLISHED_DATE"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="ACTIVE"><![CDATA[0]]></COLUMN>
+        <COLUMN NAME="ANALYSIS_DATE"><![CDATA[1469042181741]]></COLUMN>
+        <COLUMN NAME="AUTHOR_ID"><![CDATA[11]]></COLUMN>
+        <COLUMN NAME="DELETED_BY"><![CDATA[11]]></COLUMN>
+        <COLUMN NAME="DELETED_DATE"><![CDATA[20-JUL-16]]></COLUMN>
+    </ROW>
+    <ROW>
+        <COLUMN NAME="ID"><![CDATA[381589C69AF910CCE0530061CE0A5F8F]]></COLUMN>
+        <COLUMN NAME="SLUG"><![CDATA[Bacon ipsum dolor amet ham hock andouille capicola, ground round ball tip landjaeger tongue shankle tenderloin fatback short loin cupim venison sirloin.]]></COLUMN>
+        <COLUMN NAME="AUTHOR"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="TITLE"><![CDATA[It's All Bacon News Review]]></COLUMN>
+        <COLUMN NAME="PUBLISHED_DATE"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="ACTIVE"><![CDATA[0]]></COLUMN>
+        <COLUMN NAME="ANALYSIS_DATE"><![CDATA[1469035904617]]></COLUMN>
+        <COLUMN NAME="AUTHOR_ID"><![CDATA[1001]]></COLUMN>
+        <COLUMN NAME="DELETED_BY"><![CDATA[1009]]></COLUMN>
+        <COLUMN NAME="DELETED_DATE"><![CDATA[20-JUL-16]]></COLUMN>
+    </ROW>
+    <ROW>
+        <COLUMN NAME="ID"><![CDATA[381589C69AF810CCE0530061CE0A5F8F]]></COLUMN>
+        <COLUMN NAME="SLUG"><![CDATA[Picanha flank salami bacon chuck. Sausage jerky jowl, prosciutto strip steak shoulder venison filet mignon alcatra frankfurter biltong.]]></COLUMN>
+        <COLUMN NAME="AUTHOR"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="TITLE"><![CDATA[It's All Bacon News Review]]></COLUMN>
+        <COLUMN NAME="PUBLISHED_DATE"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="ACTIVE"><![CDATA[0]]></COLUMN>
+        <COLUMN NAME="ANALYSIS_DATE"><![CDATA[1469035745394]]></COLUMN>
+        <COLUMN NAME="AUTHOR_ID"><![CDATA[1001]]></COLUMN>
+        <COLUMN NAME="DELETED_BY"><![CDATA[1001]]></COLUMN>
+        <COLUMN NAME="DELETED_DATE"><![CDATA[20-JUL-16]]></COLUMN>
+    </ROW>
+    <ROW>
+        <COLUMN NAME="ID"><![CDATA[38144B7E3B8E3F8FE0530161CE0AF62E]]></COLUMN>
+        <COLUMN NAME="SLUG"><![CDATA[adding new hipster article for testing]]></COLUMN>
+        <COLUMN NAME="AUTHOR"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="TITLE"><![CDATA[Adding New Article]]></COLUMN>
+        <COLUMN NAME="PUBLISHED_DATE"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="ACTIVE"><![CDATA[0]]></COLUMN>
+        <COLUMN NAME="ANALYSIS_DATE"><![CDATA[1469030405649]]></COLUMN>
+        <COLUMN NAME="AUTHOR_ID"><![CDATA[4]]></COLUMN>
+        <COLUMN NAME="DELETED_BY"><![CDATA[4]]></COLUMN>
+        <COLUMN NAME="DELETED_DATE"><![CDATA[20-JUL-16]]></COLUMN>
+    </ROW>
+    <ROW>
+        <COLUMN NAME="ID"><![CDATA[3813D8DCB4AB6009E0530061CE0A7089]]></COLUMN>
+        <COLUMN NAME="SLUG"><![CDATA[• Oil plays receive a minor bump to IRR as gas plays continue to slip
+• Marcellus Wet has been split into two separate plays, to account for multiple natural gas price points
+• As the STACK play develops, returns are proving to be impressive]]></COLUMN>
+        <COLUMN NAME="AUTHOR"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="TITLE"><![CDATA[July IRR Commentary]]></COLUMN>
+        <COLUMN NAME="PUBLISHED_DATE"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="ACTIVE"><![CDATA[0]]></COLUMN>
+        <COLUMN NAME="ANALYSIS_DATE"><![CDATA[1469028482451]]></COLUMN>
+        <COLUMN NAME="AUTHOR_ID"><![CDATA[11]]></COLUMN>
+        <COLUMN NAME="DELETED_BY"><![CDATA[11]]></COLUMN>
+        <COLUMN NAME="DELETED_DATE"><![CDATA[20-JUL-16]]></COLUMN>
+    </ROW>
+    <ROW>
+        <COLUMN NAME="ID"><![CDATA[38126F0E80754ECFE0530161CE0AE1F2]]></COLUMN>
+        <COLUMN NAME="SLUG"><![CDATA[• Oil plays receive a minor bump to IRR as gas plays continue to slip
+• Marcellus Wet has been split into two separate plays, to account for multiple natural gas price points
+• As the STACK play develops, returns are proving to be impressive]]></COLUMN>
+        <COLUMN NAME="AUTHOR"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="TITLE"><![CDATA[July IRR Commentary]]></COLUMN>
+        <COLUMN NAME="PUBLISHED_DATE"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="ACTIVE"><![CDATA[0]]></COLUMN>
+        <COLUMN NAME="ANALYSIS_DATE"><![CDATA[1469022412361]]></COLUMN>
+        <COLUMN NAME="AUTHOR_ID"><![CDATA[11]]></COLUMN>
+        <COLUMN NAME="DELETED_BY"><![CDATA[11]]></COLUMN>
+        <COLUMN NAME="DELETED_DATE"><![CDATA[20-JUL-16]]></COLUMN>
+    </ROW>
+    <ROW>
+        <COLUMN NAME="ID"><![CDATA[38121018555B7625E0530161CE0A5877]]></COLUMN>
+        <COLUMN NAME="SLUG"><![CDATA[• Oil plays receive a minor bump to IRR as gas plays continue to slip
+• Marcellus Wet has been split into two separate plays, to account for multiple natural gas price points
+• As the STACK play develops, returns are proving to be impressive]]></COLUMN>
+        <COLUMN NAME="AUTHOR"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="TITLE"><![CDATA[July IRR Commentary]]></COLUMN>
+        <COLUMN NAME="PUBLISHED_DATE"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="ACTIVE"><![CDATA[0]]></COLUMN>
+        <COLUMN NAME="ANALYSIS_DATE"><![CDATA[1469020819149]]></COLUMN>
+        <COLUMN NAME="AUTHOR_ID"><![CDATA[11]]></COLUMN>
+        <COLUMN NAME="DELETED_BY"><![CDATA[11]]></COLUMN>
+        <COLUMN NAME="DELETED_DATE"><![CDATA[20-JUL-16]]></COLUMN>
+    </ROW>
+    <ROW>
+        <COLUMN NAME="ID"><![CDATA[3804CE7D5ED97864E0530161CE0A3CED]]></COLUMN>
+        <COLUMN NAME="SLUG"><![CDATA[• Oil plays receive a minor bump to IRR as gas plays continue to slip
+• Marcellus Wet has been split into two separate plays, to account for multiple natural gas price points
+• As the STACK play develops, returns are proving to be impressive]]></COLUMN>
+        <COLUMN NAME="AUTHOR"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="TITLE"><![CDATA[July IRR Commentary]]></COLUMN>
+        <COLUMN NAME="PUBLISHED_DATE"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="ACTIVE"><![CDATA[0]]></COLUMN>
+        <COLUMN NAME="ANALYSIS_DATE"><![CDATA[1468963883919]]></COLUMN>
+        <COLUMN NAME="AUTHOR_ID"><![CDATA[11]]></COLUMN>
+        <COLUMN NAME="DELETED_BY"><![CDATA[11]]></COLUMN>
+        <COLUMN NAME="DELETED_DATE"><![CDATA[19-JUL-16]]></COLUMN>
+    </ROW>
+    <ROW>
+        <COLUMN NAME="ID"><![CDATA[3804799D9B8F4AECE0530061CE0ABA5B]]></COLUMN>
+        <COLUMN NAME="SLUG"><![CDATA[Bacon ipsum dolor amet ham hock andouille capicola, ground round ball tip landjaeger tongue shankle tenderloin fatback short loin cupim venison sirloin.]]></COLUMN>
+        <COLUMN NAME="AUTHOR"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="TITLE"><![CDATA[It's All Bacon News]]></COLUMN>
+        <COLUMN NAME="PUBLISHED_DATE"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="ACTIVE"><![CDATA[0]]></COLUMN>
+        <COLUMN NAME="ANALYSIS_DATE"><![CDATA[1468962459979]]></COLUMN>
+        <COLUMN NAME="AUTHOR_ID"><![CDATA[1001]]></COLUMN>
+        <COLUMN NAME="DELETED_BY"><![CDATA[1005]]></COLUMN>
+        <COLUMN NAME="DELETED_DATE"><![CDATA[20-JUL-16]]></COLUMN>
+    </ROW>
+    <ROW>
+        <COLUMN NAME="ID"><![CDATA[380432D56CC60504E0530161CE0A0C18]]></COLUMN>
+        <COLUMN NAME="SLUG"><![CDATA[ghghgh]]></COLUMN>
+        <COLUMN NAME="AUTHOR"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="TITLE"><![CDATA[fgfg]]></COLUMN>
+        <COLUMN NAME="PUBLISHED_DATE"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="ACTIVE"><![CDATA[0]]></COLUMN>
+        <COLUMN NAME="ANALYSIS_DATE"><![CDATA[1468961272454]]></COLUMN>
+        <COLUMN NAME="AUTHOR_ID"><![CDATA[1001]]></COLUMN>
+        <COLUMN NAME="DELETED_BY"><![CDATA[1001]]></COLUMN>
+        <COLUMN NAME="DELETED_DATE"><![CDATA[19-JUL-16]]></COLUMN>
+    </ROW>
+    <ROW>
+        <COLUMN NAME="ID"><![CDATA[380428593BE417AEE0530061CE0A4415]]></COLUMN>
+        <COLUMN NAME="SLUG"><![CDATA[Bacon ipsum dolor amet ham hock andouille capicola, ground round ball tip landjaeger tongue shankle tenderloin fatback short loin cupim venison sirloin.
+]]></COLUMN>
+        <COLUMN NAME="AUTHOR"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="TITLE"><![CDATA[It's All Bacon News]]></COLUMN>
+        <COLUMN NAME="PUBLISHED_DATE"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="ACTIVE"><![CDATA[0]]></COLUMN>
+        <COLUMN NAME="ANALYSIS_DATE"><![CDATA[1468961096535]]></COLUMN>
+        <COLUMN NAME="AUTHOR_ID"><![CDATA[1001]]></COLUMN>
+        <COLUMN NAME="DELETED_BY"><![CDATA[1001]]></COLUMN>
+        <COLUMN NAME="DELETED_DATE"><![CDATA[19-JUL-16]]></COLUMN>
+    </ROW>
+    <ROW>
+        <COLUMN NAME="ID"><![CDATA[38038A598CD05009E0530161CE0AF6DB]]></COLUMN>
+        <COLUMN NAME="SLUG"><![CDATA[EXERPTEXERPTEXERPT]]></COLUMN>
+        <COLUMN NAME="AUTHOR"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="TITLE"><![CDATA[Test123]]></COLUMN>
+        <COLUMN NAME="PUBLISHED_DATE"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="ACTIVE"><![CDATA[0]]></COLUMN>
+        <COLUMN NAME="ANALYSIS_DATE"><![CDATA[1468958446332]]></COLUMN>
+        <COLUMN NAME="AUTHOR_ID"><![CDATA[1005]]></COLUMN>
+        <COLUMN NAME="DELETED_BY"><![CDATA[1009]]></COLUMN>
+        <COLUMN NAME="DELETED_DATE"><![CDATA[20-JUL-16]]></COLUMN>
+    </ROW>
+    <ROW>
+        <COLUMN NAME="ID"><![CDATA[38037F2AE7D45FA4E0530061CE0A397E]]></COLUMN>
+        <COLUMN NAME="SLUG"><![CDATA[Bacon ipsum dolor amet hamburger turkey pork loin jowl pastrami, pork belly boudin sausage pancetta ham ribeye rump leberkas pig. ]]></COLUMN>
+        <COLUMN NAME="AUTHOR"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="TITLE"><![CDATA[Another Test]]></COLUMN>
+        <COLUMN NAME="PUBLISHED_DATE"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="ACTIVE"><![CDATA[0]]></COLUMN>
+        <COLUMN NAME="ANALYSIS_DATE"><![CDATA[1468958258156]]></COLUMN>
+        <COLUMN NAME="AUTHOR_ID"><![CDATA[1001]]></COLUMN>
+        <COLUMN NAME="DELETED_BY"><![CDATA[1009]]></COLUMN>
+        <COLUMN NAME="DELETED_DATE"><![CDATA[20-JUL-16]]></COLUMN>
+    </ROW>
+    <ROW>
+        <COLUMN NAME="ID"><![CDATA[37EDAB31C40459AEE0530061CE0AC726]]></COLUMN>
+        <COLUMN NAME="SLUG"><![CDATA[EXERPT]]></COLUMN>
+        <COLUMN NAME="AUTHOR"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="TITLE"><![CDATA[title]]></COLUMN>
+        <COLUMN NAME="PUBLISHED_DATE"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="ACTIVE"><![CDATA[0]]></COLUMN>
+        <COLUMN NAME="ANALYSIS_DATE"><![CDATA[1468958081646]]></COLUMN>
+        <COLUMN NAME="AUTHOR_ID"><![CDATA[1001]]></COLUMN>
+        <COLUMN NAME="DELETED_BY"><![CDATA[1009]]></COLUMN>
+        <COLUMN NAME="DELETED_DATE"><![CDATA[20-JUL-16]]></COLUMN>
+    </ROW>
+    <ROW>
+        <COLUMN NAME="ID"><![CDATA[380058A802A66992E0530161CE0AE05F]]></COLUMN>
+        <COLUMN NAME="SLUG"><![CDATA[EXERPT]]></COLUMN>
+        <COLUMN NAME="AUTHOR"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="TITLE"><![CDATA[TestTitle123]]></COLUMN>
+        <COLUMN NAME="PUBLISHED_DATE"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="ACTIVE"><![CDATA[0]]></COLUMN>
+        <COLUMN NAME="ANALYSIS_DATE"><![CDATA[1468949066449]]></COLUMN>
+        <COLUMN NAME="AUTHOR_ID"><![CDATA[1005]]></COLUMN>
+        <COLUMN NAME="DELETED_BY"><![CDATA[1001]]></COLUMN>
+        <COLUMN NAME="DELETED_DATE"><![CDATA[19-JUL-16]]></COLUMN>
+    </ROW>
+    <ROW>
+        <COLUMN NAME="ID"><![CDATA[380047E11EEF32A3E0530061CE0AACA9]]></COLUMN>
+        <COLUMN NAME="SLUG"><![CDATA[EXERPT]]></COLUMN>
+        <COLUMN NAME="AUTHOR"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="TITLE"><![CDATA[TestTitle]]></COLUMN>
+        <COLUMN NAME="PUBLISHED_DATE"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="ACTIVE"><![CDATA[0]]></COLUMN>
+        <COLUMN NAME="ANALYSIS_DATE"><![CDATA[1468949026977]]></COLUMN>
+        <COLUMN NAME="AUTHOR_ID"><![CDATA[1005]]></COLUMN>
+        <COLUMN NAME="DELETED_BY"><![CDATA[1005]]></COLUMN>
+        <COLUMN NAME="DELETED_DATE"><![CDATA[19-JUL-16]]></COLUMN>
+    </ROW>
+    <ROW>
+        <COLUMN NAME="ID"><![CDATA[380047E11EEE32A3E0530061CE0AACA9]]></COLUMN>
+        <COLUMN NAME="SLUG"><![CDATA[EXERPTEXERPTEXERPT]]></COLUMN>
+        <COLUMN NAME="AUTHOR"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="TITLE"><![CDATA[t1112]]></COLUMN>
+        <COLUMN NAME="PUBLISHED_DATE"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="ACTIVE"><![CDATA[0]]></COLUMN>
+        <COLUMN NAME="ANALYSIS_DATE"><![CDATA[1468948307933]]></COLUMN>
+        <COLUMN NAME="AUTHOR_ID"><![CDATA[1005]]></COLUMN>
+        <COLUMN NAME="DELETED_BY"><![CDATA[1005]]></COLUMN>
+        <COLUMN NAME="DELETED_DATE"><![CDATA[19-JUL-16]]></COLUMN>
+    </ROW>
+    <ROW>
+        <COLUMN NAME="ID"><![CDATA[3800ABD8A4221141E0530061CE0A0151]]></COLUMN>
+        <COLUMN NAME="SLUG"><![CDATA[EXERPTEXERPTEXERPTEXERPT]]></COLUMN>
+        <COLUMN NAME="AUTHOR"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="TITLE"><![CDATA[T1233]]></COLUMN>
+        <COLUMN NAME="PUBLISHED_DATE"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="ACTIVE"><![CDATA[0]]></COLUMN>
+        <COLUMN NAME="ANALYSIS_DATE"><![CDATA[1468947920275]]></COLUMN>
+        <COLUMN NAME="AUTHOR_ID"><![CDATA[1005]]></COLUMN>
+        <COLUMN NAME="DELETED_BY"><![CDATA[1005]]></COLUMN>
+        <COLUMN NAME="DELETED_DATE"><![CDATA[19-JUL-16]]></COLUMN>
+    </ROW>
+    <ROW>
+        <COLUMN NAME="ID"><![CDATA[380047E11EED32A3E0530061CE0AACA9]]></COLUMN>
+        <COLUMN NAME="SLUG"><![CDATA[EXERPT]]></COLUMN>
+        <COLUMN NAME="AUTHOR"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="TITLE"><![CDATA[Title111111]]></COLUMN>
+        <COLUMN NAME="PUBLISHED_DATE"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="ACTIVE"><![CDATA[0]]></COLUMN>
+        <COLUMN NAME="ANALYSIS_DATE"><![CDATA[1468946504464]]></COLUMN>
+        <COLUMN NAME="AUTHOR_ID"><![CDATA[1005]]></COLUMN>
+        <COLUMN NAME="DELETED_BY"><![CDATA[1005]]></COLUMN>
+        <COLUMN NAME="DELETED_DATE"><![CDATA[19-JUL-16]]></COLUMN>
+    </ROW>
+    <ROW>
+        <COLUMN NAME="ID"><![CDATA[3800ABD8A4211141E0530061CE0A0151]]></COLUMN>
+        <COLUMN NAME="SLUG"><![CDATA[Exerpt]]></COLUMN>
+        <COLUMN NAME="AUTHOR"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="TITLE"><![CDATA[Mytitle]]></COLUMN>
+        <COLUMN NAME="PUBLISHED_DATE"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="ACTIVE"><![CDATA[0]]></COLUMN>
+        <COLUMN NAME="ANALYSIS_DATE"><![CDATA[1468946305600]]></COLUMN>
+        <COLUMN NAME="AUTHOR_ID"><![CDATA[1005]]></COLUMN>
+        <COLUMN NAME="DELETED_BY"><![CDATA[1005]]></COLUMN>
+        <COLUMN NAME="DELETED_DATE"><![CDATA[19-JUL-16]]></COLUMN>
+    </ROW>
+    <ROW>
+        <COLUMN NAME="ID"><![CDATA[3800ABD8A4201141E0530061CE0A0151]]></COLUMN>
+        <COLUMN NAME="SLUG"><![CDATA[Exerpt1222]]></COLUMN>
+        <COLUMN NAME="AUTHOR"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="TITLE"><![CDATA[Title11]]></COLUMN>
+        <COLUMN NAME="PUBLISHED_DATE"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="ACTIVE"><![CDATA[0]]></COLUMN>
+        <COLUMN NAME="ANALYSIS_DATE"><![CDATA[1468946122875]]></COLUMN>
+        <COLUMN NAME="AUTHOR_ID"><![CDATA[1005]]></COLUMN>
+        <COLUMN NAME="DELETED_BY"><![CDATA[1005]]></COLUMN>
+        <COLUMN NAME="DELETED_DATE"><![CDATA[19-JUL-16]]></COLUMN>
+    </ROW>
+    <ROW>
+        <COLUMN NAME="ID"><![CDATA[380058A802A56992E0530161CE0AE05F]]></COLUMN>
+        <COLUMN NAME="SLUG"><![CDATA[Slug]]></COLUMN>
+        <COLUMN NAME="AUTHOR"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="TITLE"><![CDATA[Highlight]]></COLUMN>
+        <COLUMN NAME="PUBLISHED_DATE"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="ACTIVE"><![CDATA[0]]></COLUMN>
+        <COLUMN NAME="ANALYSIS_DATE"><![CDATA[1468944727128]]></COLUMN>
+        <COLUMN NAME="AUTHOR_ID"><![CDATA[1005]]></COLUMN>
+        <COLUMN NAME="DELETED_BY"><![CDATA[1005]]></COLUMN>
+        <COLUMN NAME="DELETED_DATE"><![CDATA[19-JUL-16]]></COLUMN>
+    </ROW>
+    <ROW>
+        <COLUMN NAME="ID"><![CDATA[380047E11EEC32A3E0530061CE0AACA9]]></COLUMN>
+        <COLUMN NAME="SLUG"><![CDATA[Exerpt]]></COLUMN>
+        <COLUMN NAME="AUTHOR"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="TITLE"><![CDATA[Test12345]]></COLUMN>
+        <COLUMN NAME="PUBLISHED_DATE"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="ACTIVE"><![CDATA[0]]></COLUMN>
+        <COLUMN NAME="ANALYSIS_DATE"><![CDATA[1468944445616]]></COLUMN>
+        <COLUMN NAME="AUTHOR_ID"><![CDATA[1005]]></COLUMN>
+        <COLUMN NAME="DELETED_BY"><![CDATA[1005]]></COLUMN>
+        <COLUMN NAME="DELETED_DATE"><![CDATA[19-JUL-16]]></COLUMN>
+    </ROW>
+    <ROW>
+        <COLUMN NAME="ID"><![CDATA[37ED2AC52F0259B0E0530061CE0AE2A3]]></COLUMN>
+        <COLUMN NAME="SLUG"><![CDATA[asdf asdf]]></COLUMN>
+        <COLUMN NAME="AUTHOR"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="TITLE"><![CDATA[asdf as]]></COLUMN>
+        <COLUMN NAME="PUBLISHED_DATE"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="ACTIVE"><![CDATA[0]]></COLUMN>
+        <COLUMN NAME="ANALYSIS_DATE"><![CDATA[1468890727331]]></COLUMN>
+        <COLUMN NAME="AUTHOR_ID"><![CDATA[1046]]></COLUMN>
+        <COLUMN NAME="DELETED_BY"><![CDATA[1046]]></COLUMN>
+        <COLUMN NAME="DELETED_DATE"><![CDATA[18-JUL-16]]></COLUMN>
+    </ROW>
+    <ROW>
+        <COLUMN NAME="ID"><![CDATA[37F0C9759C46392AE0530161CE0A1FE9]]></COLUMN>
+        <COLUMN NAME="SLUG"><![CDATA[• Oil plays receive a minor bump to IRR as gas plays continue to slip
+• Marcellus Wet has been split into two separate plays, to account for multiple natural gas price points
+• As the STACK play develops, returns are proving to be impressive]]></COLUMN>
+        <COLUMN NAME="AUTHOR"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="TITLE"><![CDATA[July IRR Commentary]]></COLUMN>
+        <COLUMN NAME="PUBLISHED_DATE"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="ACTIVE"><![CDATA[0]]></COLUMN>
+        <COLUMN NAME="ANALYSIS_DATE"><![CDATA[1468877900181]]></COLUMN>
+        <COLUMN NAME="AUTHOR_ID"><![CDATA[11]]></COLUMN>
+        <COLUMN NAME="DELETED_BY"><![CDATA[11]]></COLUMN>
+        <COLUMN NAME="DELETED_DATE"><![CDATA[18-JUL-16]]></COLUMN>
+    </ROW>
+    <ROW>
+        <COLUMN NAME="ID"><![CDATA[37F0517314BE02E3E0530161CE0A40AE]]></COLUMN>
+        <COLUMN NAME="SLUG"><![CDATA[• Oil plays receive a minor bump to IRR as gas plays continue to slip
+• Marcellus Wet has been split into two separate plays, to account for multiple natural gas price points
+• As the STACK play develops, returns are proving to be impressive]]></COLUMN>
+        <COLUMN NAME="AUTHOR"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="TITLE"><![CDATA[July IRR Commentary]]></COLUMN>
+        <COLUMN NAME="PUBLISHED_DATE"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="ACTIVE"><![CDATA[0]]></COLUMN>
+        <COLUMN NAME="ANALYSIS_DATE"><![CDATA[1468875886750]]></COLUMN>
+        <COLUMN NAME="AUTHOR_ID"><![CDATA[11]]></COLUMN>
+        <COLUMN NAME="DELETED_BY"><![CDATA[11]]></COLUMN>
+        <COLUMN NAME="DELETED_DATE"><![CDATA[18-JUL-16]]></COLUMN>
+    </ROW>
+    <ROW>
+        <COLUMN NAME="ID"><![CDATA[37EF97B88D947A16E0530161CE0AA02E]]></COLUMN>
+        <COLUMN NAME="SLUG"><![CDATA[• Oil plays receive a minor bump to IRR as gas plays continue to slip
+• Marcellus Wet has been split into two separate plays, to account for multiple natural gas price points
+• As the STACK play develops, returns are proving to be impressive]]></COLUMN>
+        <COLUMN NAME="AUTHOR"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="TITLE"><![CDATA[July IRR Commentary]]></COLUMN>
+        <COLUMN NAME="PUBLISHED_DATE"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="ACTIVE"><![CDATA[0]]></COLUMN>
+        <COLUMN NAME="ANALYSIS_DATE"><![CDATA[1468872770740]]></COLUMN>
+        <COLUMN NAME="AUTHOR_ID"><![CDATA[11]]></COLUMN>
+        <COLUMN NAME="DELETED_BY"><![CDATA[11]]></COLUMN>
+        <COLUMN NAME="DELETED_DATE"><![CDATA[18-JUL-16]]></COLUMN>
+    </ROW>
+    <ROW>
+        <COLUMN NAME="ID"><![CDATA[37EF0AF340C56A62E0530061CE0AF17E]]></COLUMN>
+        <COLUMN NAME="SLUG"><![CDATA[New article - going to delete ]]></COLUMN>
+        <COLUMN NAME="AUTHOR"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="TITLE"><![CDATA[New article - going to delete ]]></COLUMN>
+        <COLUMN NAME="PUBLISHED_DATE"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="ACTIVE"><![CDATA[0]]></COLUMN>
+        <COLUMN NAME="ANALYSIS_DATE"><![CDATA[1468870408999]]></COLUMN>
+        <COLUMN NAME="AUTHOR_ID"><![CDATA[4]]></COLUMN>
+        <COLUMN NAME="DELETED_BY"><![CDATA[4]]></COLUMN>
+        <COLUMN NAME="DELETED_DATE"><![CDATA[18-JUL-16]]></COLUMN>
+    </ROW>
+    <ROW>
+        <COLUMN NAME="ID"><![CDATA[37ED36F771092C62E0530161CE0AC574]]></COLUMN>
+        <COLUMN NAME="SLUG"><![CDATA[this is an excerpt]]></COLUMN>
+        <COLUMN NAME="AUTHOR"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="TITLE"><![CDATA[This is a title]]></COLUMN>
+        <COLUMN NAME="PUBLISHED_DATE"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="ACTIVE"><![CDATA[0]]></COLUMN>
+        <COLUMN NAME="ANALYSIS_DATE"><![CDATA[1468866882267]]></COLUMN>
+        <COLUMN NAME="AUTHOR_ID"><![CDATA[1]]></COLUMN>
+        <COLUMN NAME="DELETED_BY"><![CDATA[1009]]></COLUMN>
+        <COLUMN NAME="DELETED_DATE"><![CDATA[20-JUL-16]]></COLUMN>
+    </ROW>
+    <ROW>
+        <COLUMN NAME="ID"><![CDATA[37ED36F771082C62E0530161CE0AC574]]></COLUMN>
+        <COLUMN NAME="SLUG"><![CDATA[wef wef]]></COLUMN>
+        <COLUMN NAME="AUTHOR"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="TITLE"><![CDATA[wer awer]]></COLUMN>
+        <COLUMN NAME="PUBLISHED_DATE"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="ACTIVE"><![CDATA[0]]></COLUMN>
+        <COLUMN NAME="ANALYSIS_DATE"><![CDATA[1468866793382]]></COLUMN>
+        <COLUMN NAME="AUTHOR_ID"><![CDATA[7]]></COLUMN>
+        <COLUMN NAME="DELETED_BY"><![CDATA[7]]></COLUMN>
+        <COLUMN NAME="DELETED_DATE"><![CDATA[18-JUL-16]]></COLUMN>
+    </ROW>
+    <ROW>
+        <COLUMN NAME="ID"><![CDATA[37ED36F771072C62E0530161CE0AC574]]></COLUMN>
+        <COLUMN NAME="SLUG"><![CDATA[monday afternoon ]]></COLUMN>
+        <COLUMN NAME="AUTHOR"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="TITLE"><![CDATA[Testing ]]></COLUMN>
+        <COLUMN NAME="PUBLISHED_DATE"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="ACTIVE"><![CDATA[0]]></COLUMN>
+        <COLUMN NAME="ANALYSIS_DATE"><![CDATA[1468866761921]]></COLUMN>
+        <COLUMN NAME="AUTHOR_ID"><![CDATA[7]]></COLUMN>
+        <COLUMN NAME="DELETED_BY"><![CDATA[7]]></COLUMN>
+        <COLUMN NAME="DELETED_DATE"><![CDATA[18-JUL-16]]></COLUMN>
+    </ROW>
+    <ROW>
+        <COLUMN NAME="ID"><![CDATA[37ED36F771062C62E0530161CE0AC574]]></COLUMN>
+        <COLUMN NAME="SLUG"><![CDATA[Bacon ipsum dolor amet hamburger turkey pork loin jowl pastrami, pork belly boudin sausage pancetta ham ribeye rump leberkas pig.]]></COLUMN>
+        <COLUMN NAME="AUTHOR"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="TITLE"><![CDATA[A New Tested Article]]></COLUMN>
+        <COLUMN NAME="PUBLISHED_DATE"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="ACTIVE"><![CDATA[0]]></COLUMN>
+        <COLUMN NAME="ANALYSIS_DATE"><![CDATA[1468865486183]]></COLUMN>
+        <COLUMN NAME="AUTHOR_ID"><![CDATA[1]]></COLUMN>
+        <COLUMN NAME="DELETED_BY"><![CDATA[1009]]></COLUMN>
+        <COLUMN NAME="DELETED_DATE"><![CDATA[20-JUL-16]]></COLUMN>
+    </ROW>
+    <ROW>
+        <COLUMN NAME="ID"><![CDATA[37EDAB31C40359AEE0530061CE0AC726]]></COLUMN>
+        <COLUMN NAME="SLUG"><![CDATA[hello blah blah]]></COLUMN>
+        <COLUMN NAME="AUTHOR"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="TITLE"><![CDATA[Jeramiah Buckweed]]></COLUMN>
+        <COLUMN NAME="PUBLISHED_DATE"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="ACTIVE"><![CDATA[0]]></COLUMN>
+        <COLUMN NAME="ANALYSIS_DATE"><![CDATA[1468864507363]]></COLUMN>
+        <COLUMN NAME="AUTHOR_ID"><![CDATA[7]]></COLUMN>
+        <COLUMN NAME="DELETED_BY"><![CDATA[7]]></COLUMN>
+        <COLUMN NAME="DELETED_DATE"><![CDATA[18-JUL-16]]></COLUMN>
+    </ROW>
+    <ROW>
+        <COLUMN NAME="ID"><![CDATA[37ED36F771052C62E0530161CE0AC574]]></COLUMN>
+        <COLUMN NAME="SLUG"><![CDATA[it is hot
+too too hot
+]]></COLUMN>
+        <COLUMN NAME="AUTHOR"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="TITLE"><![CDATA[hello out there]]></COLUMN>
+        <COLUMN NAME="PUBLISHED_DATE"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="ACTIVE"><![CDATA[0]]></COLUMN>
+        <COLUMN NAME="ANALYSIS_DATE"><![CDATA[1468864098955]]></COLUMN>
+        <COLUMN NAME="AUTHOR_ID"><![CDATA[7]]></COLUMN>
+        <COLUMN NAME="DELETED_BY"><![CDATA[7]]></COLUMN>
+        <COLUMN NAME="DELETED_DATE"><![CDATA[18-JUL-16]]></COLUMN>
+    </ROW>
+    <ROW>
+        <COLUMN NAME="ID"><![CDATA[37ED36F771042C62E0530161CE0AC574]]></COLUMN>
+        <COLUMN NAME="SLUG"><![CDATA[I love fridays]]></COLUMN>
+        <COLUMN NAME="AUTHOR"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="TITLE"><![CDATA[12345678910]]></COLUMN>
+        <COLUMN NAME="PUBLISHED_DATE"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="ACTIVE"><![CDATA[0]]></COLUMN>
+        <COLUMN NAME="ANALYSIS_DATE"><![CDATA[1468862637845]]></COLUMN>
+        <COLUMN NAME="AUTHOR_ID"><![CDATA[7]]></COLUMN>
+        <COLUMN NAME="DELETED_BY"><![CDATA[7]]></COLUMN>
+        <COLUMN NAME="DELETED_DATE"><![CDATA[18-JUL-16]]></COLUMN>
+    </ROW>
+    <ROW>
+        <COLUMN NAME="ID"><![CDATA[37ED36F771032C62E0530161CE0AC574]]></COLUMN>
+        <COLUMN NAME="SLUG"><![CDATA[this is a test
+Test
+TEST]]></COLUMN>
+        <COLUMN NAME="AUTHOR"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="TITLE"><![CDATA[Testing 123]]></COLUMN>
+        <COLUMN NAME="PUBLISHED_DATE"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="ACTIVE"><![CDATA[0]]></COLUMN>
+        <COLUMN NAME="ANALYSIS_DATE"><![CDATA[1468862557398]]></COLUMN>
+        <COLUMN NAME="AUTHOR_ID"><![CDATA[7]]></COLUMN>
+        <COLUMN NAME="DELETED_BY"><![CDATA[7]]></COLUMN>
+        <COLUMN NAME="DELETED_DATE"><![CDATA[18-JUL-16]]></COLUMN>
+    </ROW>
+    <ROW>
+        <COLUMN NAME="ID"><![CDATA[37ED2AC52F0159B0E0530061CE0AE2A3]]></COLUMN>
+        <COLUMN NAME="SLUG"><![CDATA[ewagrw]]></COLUMN>
+        <COLUMN NAME="AUTHOR"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="TITLE"><![CDATA[test]]></COLUMN>
+        <COLUMN NAME="PUBLISHED_DATE"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="ACTIVE"><![CDATA[0]]></COLUMN>
+        <COLUMN NAME="ANALYSIS_DATE"><![CDATA[1468862352759]]></COLUMN>
+        <COLUMN NAME="AUTHOR_ID"><![CDATA[9]]></COLUMN>
+        <COLUMN NAME="DELETED_BY"><![CDATA[7]]></COLUMN>
+        <COLUMN NAME="DELETED_DATE"><![CDATA[18-JUL-16]]></COLUMN>
+    </ROW>
+    <ROW>
+        <COLUMN NAME="ID"><![CDATA[37B51DC90C2E3123E0530161CE0A2B6C]]></COLUMN>
+        <COLUMN NAME="SLUG"><![CDATA[• Oil plays receive a minor bump to IRR as gas plays continue to slip
+• Marcellus Wet has been split into two separate plays, to account for multiple natural gas price points
+• As the STACK play develops, returns are proving to be impressive]]></COLUMN>
+        <COLUMN NAME="AUTHOR"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="TITLE"><![CDATA[July IRR Commentary]]></COLUMN>
+        <COLUMN NAME="PUBLISHED_DATE"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="ACTIVE"><![CDATA[0]]></COLUMN>
+        <COLUMN NAME="ANALYSIS_DATE"><![CDATA[1468621616900]]></COLUMN>
+        <COLUMN NAME="AUTHOR_ID"><![CDATA[11]]></COLUMN>
+        <COLUMN NAME="DELETED_BY"><![CDATA[11]]></COLUMN>
+        <COLUMN NAME="DELETED_DATE"><![CDATA[15-JUL-16]]></COLUMN>
+    </ROW>
+    <ROW>
+        <COLUMN NAME="ID"><![CDATA[37B4BDA938B05F04E0530061CE0AA2D1]]></COLUMN>
+        <COLUMN NAME="SLUG"><![CDATA[• Oil plays receive a minor bump to IRR as gas plays continue to slip
+• Marcellus Wet has been split into two separate plays, to account for multiple natural gas price points
+• As the STACK play develops, returns are proving to be impressive]]></COLUMN>
+        <COLUMN NAME="AUTHOR"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="TITLE"><![CDATA[July IRR Commentary]]></COLUMN>
+        <COLUMN NAME="PUBLISHED_DATE"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="ACTIVE"><![CDATA[0]]></COLUMN>
+        <COLUMN NAME="ANALYSIS_DATE"><![CDATA[1468620004201]]></COLUMN>
+        <COLUMN NAME="AUTHOR_ID"><![CDATA[11]]></COLUMN>
+        <COLUMN NAME="DELETED_BY"><![CDATA[11]]></COLUMN>
+        <COLUMN NAME="DELETED_DATE"><![CDATA[15-JUL-16]]></COLUMN>
+    </ROW>
+    <ROW>
+        <COLUMN NAME="ID"><![CDATA[37B3780F1A495D66E0530061CE0A5D42]]></COLUMN>
+        <COLUMN NAME="SLUG"><![CDATA[• Oil plays receive a minor bump to IRR as gas plays continue to slip
+• Marcellus Wet has been split into two separate plays, to account for multiple natural gas price points
+• As the STACK play develops, returns are proving to be impressive]]></COLUMN>
+        <COLUMN NAME="AUTHOR"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="TITLE"><![CDATA[July IRR Commentary]]></COLUMN>
+        <COLUMN NAME="PUBLISHED_DATE"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="ACTIVE"><![CDATA[0]]></COLUMN>
+        <COLUMN NAME="ANALYSIS_DATE"><![CDATA[1468614541506]]></COLUMN>
+        <COLUMN NAME="AUTHOR_ID"><![CDATA[11]]></COLUMN>
+        <COLUMN NAME="DELETED_BY"><![CDATA[11]]></COLUMN>
+        <COLUMN NAME="DELETED_DATE"><![CDATA[15-JUL-16]]></COLUMN>
+    </ROW>
+    <ROW>
+        <COLUMN NAME="ID"><![CDATA[37B2E55156D56A06E0530061CE0AF103]]></COLUMN>
+        <COLUMN NAME="SLUG"><![CDATA[• Oil plays receive a minor bump to IRR as gas plays continue to slip
+• Marcellus Wet has been split into two separate plays, to account for multiple natural gas price points
+• As the STACK play develops, returns are proving to be impressive]]></COLUMN>
+        <COLUMN NAME="AUTHOR"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="TITLE"><![CDATA[July IRR Commentary]]></COLUMN>
+        <COLUMN NAME="PUBLISHED_DATE"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="ACTIVE"><![CDATA[0]]></COLUMN>
+        <COLUMN NAME="ANALYSIS_DATE"><![CDATA[1468612079595]]></COLUMN>
+        <COLUMN NAME="AUTHOR_ID"><![CDATA[11]]></COLUMN>
+        <COLUMN NAME="DELETED_BY"><![CDATA[11]]></COLUMN>
+        <COLUMN NAME="DELETED_DATE"><![CDATA[15-JUL-16]]></COLUMN>
+    </ROW>
+    <ROW>
+        <COLUMN NAME="ID"><![CDATA[37B1599243D74EF8E0530161CE0AB717]]></COLUMN>
+        <COLUMN NAME="SLUG"><![CDATA[Blog banjo narwhal shabby chic brunch. Cred kogi hashtag, swag flannel heirloom squid slow-carb portland intelligentsia sriracha kinfolk four dollar toast twee typewriter. ]]></COLUMN>
+        <COLUMN NAME="AUTHOR"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="TITLE"><![CDATA[New Hipster Article]]></COLUMN>
+        <COLUMN NAME="PUBLISHED_DATE"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="ACTIVE"><![CDATA[0]]></COLUMN>
+        <COLUMN NAME="ANALYSIS_DATE"><![CDATA[1468605440083]]></COLUMN>
+        <COLUMN NAME="AUTHOR_ID"><![CDATA[4]]></COLUMN>
+        <COLUMN NAME="DELETED_BY"><![CDATA[4]]></COLUMN>
+        <COLUMN NAME="DELETED_DATE"><![CDATA[18-JUL-16]]></COLUMN>
+    </ROW>
+    <ROW>
+        <COLUMN NAME="ID"><![CDATA[37B12C269694746BE0530161CE0A07D2]]></COLUMN>
+        <COLUMN NAME="SLUG"><![CDATA[Shank pork chop duis ball tip picanha filet mignon brisket drumstick ex turducken. Dolore cillum commodo in consectetur, tempor chuck brisket reprehenderit landjaeger anim biltong proident. Nostrud andouille in spare ribs esse, occaecat brisket do fatback laboris. ]]></COLUMN>
+        <COLUMN NAME="AUTHOR"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="TITLE"><![CDATA[Adding New Atricle]]></COLUMN>
+        <COLUMN NAME="PUBLISHED_DATE"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="ACTIVE"><![CDATA[0]]></COLUMN>
+        <COLUMN NAME="ANALYSIS_DATE"><![CDATA[1468604678050]]></COLUMN>
+        <COLUMN NAME="AUTHOR_ID"><![CDATA[4]]></COLUMN>
+        <COLUMN NAME="DELETED_BY"><![CDATA[4]]></COLUMN>
+        <COLUMN NAME="DELETED_DATE"><![CDATA[15-JUL-16]]></COLUMN>
+    </ROW>
+    <ROW>
+        <COLUMN NAME="ID"><![CDATA[37B11853A38A3DB0E0530061CE0ABEBC]]></COLUMN>
+        <COLUMN NAME="SLUG"><![CDATA[adding new article
+no PDF]]></COLUMN>
+        <COLUMN NAME="AUTHOR"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="TITLE"><![CDATA[New Article]]></COLUMN>
+        <COLUMN NAME="PUBLISHED_DATE"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="ACTIVE"><![CDATA[0]]></COLUMN>
+        <COLUMN NAME="ANALYSIS_DATE"><![CDATA[1468604345457]]></COLUMN>
+        <COLUMN NAME="AUTHOR_ID"><![CDATA[4]]></COLUMN>
+        <COLUMN NAME="DELETED_BY"><![CDATA[4]]></COLUMN>
+        <COLUMN NAME="DELETED_DATE"><![CDATA[15-JUL-16]]></COLUMN>
+    </ROW>
+    <ROW>
+        <COLUMN NAME="ID"><![CDATA[37B108CA81524F02E0530161CE0AA4B8]]></COLUMN>
+        <COLUMN NAME="SLUG"><![CDATA[• Oil plays receive a minor bump to IRR as gas plays continue to slip
+• Marcellus Wet has been split into two separate plays, to account for multiple natural gas price points
+• As the STACK play develops, returns are proving to be impressive]]></COLUMN>
+        <COLUMN NAME="AUTHOR"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="TITLE"><![CDATA[July IRR Commentary]]></COLUMN>
+        <COLUMN NAME="PUBLISHED_DATE"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="ACTIVE"><![CDATA[0]]></COLUMN>
+        <COLUMN NAME="ANALYSIS_DATE"><![CDATA[1468604084799]]></COLUMN>
+        <COLUMN NAME="AUTHOR_ID"><![CDATA[11]]></COLUMN>
+        <COLUMN NAME="DELETED_BY"><![CDATA[11]]></COLUMN>
+        <COLUMN NAME="DELETED_DATE"><![CDATA[15-JUL-16]]></COLUMN>
+    </ROW>
+    <ROW>
+        <COLUMN NAME="ID"><![CDATA[37B04C0F58BF4A87E0530061CE0A596C]]></COLUMN>
+        <COLUMN NAME="SLUG"><![CDATA[• Oil plays receive a minor bump to IRR as gas plays continue to slip
+• Marcellus Wet has been split into two separate plays, to account for multiple natural gas price points
+• As the STACK play develops, returns are proving to be impressive]]></COLUMN>
+        <COLUMN NAME="AUTHOR"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="TITLE"><![CDATA[July IRR Commentary]]></COLUMN>
+        <COLUMN NAME="PUBLISHED_DATE"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="ACTIVE"><![CDATA[0]]></COLUMN>
+        <COLUMN NAME="ANALYSIS_DATE"><![CDATA[1468600918421]]></COLUMN>
+        <COLUMN NAME="AUTHOR_ID"><![CDATA[11]]></COLUMN>
+        <COLUMN NAME="DELETED_BY"><![CDATA[11]]></COLUMN>
+        <COLUMN NAME="DELETED_DATE"><![CDATA[15-JUL-16]]></COLUMN>
+    </ROW>
+    <ROW>
+        <COLUMN NAME="ID"><![CDATA[37B0185DBBB40199E0530061CE0ACDCE]]></COLUMN>
+        <COLUMN NAME="SLUG"><![CDATA[• Oil plays receive a minor bump to IRR as gas plays continue to slip
+• Marcellus Wet has been split into two separate plays, to account for multiple natural gas price points
+• As the STACK play develops, returns are proving to be impressive]]></COLUMN>
+        <COLUMN NAME="AUTHOR"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="TITLE"><![CDATA[July IRR Commentary]]></COLUMN>
+        <COLUMN NAME="PUBLISHED_DATE"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="ACTIVE"><![CDATA[0]]></COLUMN>
+        <COLUMN NAME="ANALYSIS_DATE"><![CDATA[1468600051142]]></COLUMN>
+        <COLUMN NAME="AUTHOR_ID"><![CDATA[11]]></COLUMN>
+        <COLUMN NAME="DELETED_BY"><![CDATA[11]]></COLUMN>
+        <COLUMN NAME="DELETED_DATE"><![CDATA[15-JUL-16]]></COLUMN>
+    </ROW>
+    <ROW>
+        <COLUMN NAME="ID"><![CDATA[37AEB6E290086A2AE0530061CE0A0BF3]]></COLUMN>
+        <COLUMN NAME="SLUG"><![CDATA[• Oil plays receive a minor bump to IRR as gas plays continue to slip
+• Marcellus Wet has been split into two separate plays, to account for multiple natural gas price points
+• As the STACK play develops, returns are proving to be impressive]]></COLUMN>
+        <COLUMN NAME="AUTHOR"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="TITLE"><![CDATA[July IRR Commentary]]></COLUMN>
+        <COLUMN NAME="PUBLISHED_DATE"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="ACTIVE"><![CDATA[0]]></COLUMN>
+        <COLUMN NAME="ANALYSIS_DATE"><![CDATA[1468594120707]]></COLUMN>
+        <COLUMN NAME="AUTHOR_ID"><![CDATA[11]]></COLUMN>
+        <COLUMN NAME="DELETED_BY"><![CDATA[11]]></COLUMN>
+        <COLUMN NAME="DELETED_DATE"><![CDATA[15-JUL-16]]></COLUMN>
+    </ROW>
+    <ROW>
+        <COLUMN NAME="ID"><![CDATA[37AE53A9E69B0BDDE0530061CE0A65EE]]></COLUMN>
+        <COLUMN NAME="SLUG"><![CDATA[• Oil plays receive a minor bump to IRR as gas plays continue to slip
+• Marcellus Wet has been split into two separate plays, to account for multiple natural gas price points
+• As the STACK play develops, returns are proving to be impressive]]></COLUMN>
+        <COLUMN NAME="AUTHOR"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="TITLE"><![CDATA[July IRR Commentary]]></COLUMN>
+        <COLUMN NAME="PUBLISHED_DATE"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="ACTIVE"><![CDATA[0]]></COLUMN>
+        <COLUMN NAME="ANALYSIS_DATE"><![CDATA[1468592456051]]></COLUMN>
+        <COLUMN NAME="AUTHOR_ID"><![CDATA[11]]></COLUMN>
+        <COLUMN NAME="DELETED_BY"><![CDATA[11]]></COLUMN>
+        <COLUMN NAME="DELETED_DATE"><![CDATA[15-JUL-16]]></COLUMN>
+    </ROW>
+    <ROW>
+        <COLUMN NAME="ID"><![CDATA[37A301CA27BE6EC4E0530061CE0A9D19]]></COLUMN>
+        <COLUMN NAME="SLUG"><![CDATA[• Oil plays receive a minor bump to IRR as gas plays continue to slip
+• Marcellus Wet has been split into two separate plays, to account for multiple natural gas price points
+• As the STACK play develops, returns are proving to be impressive]]></COLUMN>
+        <COLUMN NAME="AUTHOR"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="TITLE"><![CDATA[July IRR Commentary]]></COLUMN>
+        <COLUMN NAME="PUBLISHED_DATE"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="ACTIVE"><![CDATA[0]]></COLUMN>
+        <COLUMN NAME="ANALYSIS_DATE"><![CDATA[1468543837799]]></COLUMN>
+        <COLUMN NAME="AUTHOR_ID"><![CDATA[11]]></COLUMN>
+        <COLUMN NAME="DELETED_BY"><![CDATA[11]]></COLUMN>
+        <COLUMN NAME="DELETED_DATE"><![CDATA[14-JUL-16]]></COLUMN>
+    </ROW>
+    <ROW>
         <COLUMN NAME="ID"><![CDATA[37A13B254FEB7D71E0530161CE0AB8F6]]></COLUMN>
         <COLUMN NAME="SLUG"><![CDATA[• Oil plays receive a minor bump to IRR as gas plays continue to slip
 • Marcellus Wet has been split into two separate plays, to account for multiple natural gas price points
@@ -76,11 +1102,11 @@
         <COLUMN NAME="AUTHOR"><![CDATA[]]></COLUMN>
         <COLUMN NAME="TITLE"><![CDATA[November A New Article To Be Tested]]></COLUMN>
         <COLUMN NAME="PUBLISHED_DATE"><![CDATA[]]></COLUMN>
-        <COLUMN NAME="ACTIVE"><![CDATA[1]]></COLUMN>
+        <COLUMN NAME="ACTIVE"><![CDATA[0]]></COLUMN>
         <COLUMN NAME="ANALYSIS_DATE"><![CDATA[1468517636673]]></COLUMN>
         <COLUMN NAME="AUTHOR_ID"><![CDATA[1]]></COLUMN>
-        <COLUMN NAME="DELETED_BY"><![CDATA[]]></COLUMN>
-        <COLUMN NAME="DELETED_DATE"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="DELETED_BY"><![CDATA[1009]]></COLUMN>
+        <COLUMN NAME="DELETED_DATE"><![CDATA[20-JUL-16]]></COLUMN>
     </ROW>
     <ROW>
         <COLUMN NAME="ID"><![CDATA[379AEEE339C56F9AE0530061CE0A2FA0]]></COLUMN>
@@ -276,42 +1302,6 @@
         <COLUMN NAME="ANALYSIS_DATE"><![CDATA[1468266244890]]></COLUMN>
         <COLUMN NAME="AUTHOR_ID"><![CDATA[11]]></COLUMN>
         <COLUMN NAME="DELETED_BY"><![CDATA[11]]></COLUMN>
-        <COLUMN NAME="DELETED_DATE"><![CDATA[11-JUL-16]]></COLUMN>
-    </ROW>
-    <ROW>
-        <COLUMN NAME="ID"><![CDATA[3761C3659DAB506BE0530161CE0A4E33]]></COLUMN>
-        <COLUMN NAME="SLUG"><![CDATA[asfsadfsadfsadfasd]]></COLUMN>
-        <COLUMN NAME="AUTHOR"><![CDATA[]]></COLUMN>
-        <COLUMN NAME="TITLE"><![CDATA[fadsfasdfadsf]]></COLUMN>
-        <COLUMN NAME="PUBLISHED_DATE"><![CDATA[]]></COLUMN>
-        <COLUMN NAME="ACTIVE"><![CDATA[0]]></COLUMN>
-        <COLUMN NAME="ANALYSIS_DATE"><![CDATA[1468263618035]]></COLUMN>
-        <COLUMN NAME="AUTHOR_ID"><![CDATA[8]]></COLUMN>
-        <COLUMN NAME="DELETED_BY"><![CDATA[8]]></COLUMN>
-        <COLUMN NAME="DELETED_DATE"><![CDATA[11-JUL-16]]></COLUMN>
-    </ROW>
-    <ROW>
-        <COLUMN NAME="ID"><![CDATA[3761AE0707812DBFE0530161CE0AE23D]]></COLUMN>
-        <COLUMN NAME="SLUG"><![CDATA[asdfasdfsadfasdfds]]></COLUMN>
-        <COLUMN NAME="AUTHOR"><![CDATA[]]></COLUMN>
-        <COLUMN NAME="TITLE"><![CDATA[dfsadfasdfsdfsd]]></COLUMN>
-        <COLUMN NAME="PUBLISHED_DATE"><![CDATA[]]></COLUMN>
-        <COLUMN NAME="ACTIVE"><![CDATA[0]]></COLUMN>
-        <COLUMN NAME="ANALYSIS_DATE"><![CDATA[1468263246670]]></COLUMN>
-        <COLUMN NAME="AUTHOR_ID"><![CDATA[8]]></COLUMN>
-        <COLUMN NAME="DELETED_BY"><![CDATA[8]]></COLUMN>
-        <COLUMN NAME="DELETED_DATE"><![CDATA[11-JUL-16]]></COLUMN>
-    </ROW>
-    <ROW>
-        <COLUMN NAME="ID"><![CDATA[3761A4B3F78C225DE0530161CE0A5B0B]]></COLUMN>
-        <COLUMN NAME="SLUG"><![CDATA[asfasdfasdfsadf]]></COLUMN>
-        <COLUMN NAME="AUTHOR"><![CDATA[]]></COLUMN>
-        <COLUMN NAME="TITLE"><![CDATA[dasfadsfasdf]]></COLUMN>
-        <COLUMN NAME="PUBLISHED_DATE"><![CDATA[]]></COLUMN>
-        <COLUMN NAME="ACTIVE"><![CDATA[0]]></COLUMN>
-        <COLUMN NAME="ANALYSIS_DATE"><![CDATA[1468263097469]]></COLUMN>
-        <COLUMN NAME="AUTHOR_ID"><![CDATA[8]]></COLUMN>
-        <COLUMN NAME="DELETED_BY"><![CDATA[8]]></COLUMN>
         <COLUMN NAME="DELETED_DATE"><![CDATA[11-JUL-16]]></COLUMN>
     </ROW>
     <ROW>
@@ -797,11 +1787,11 @@ not a lot of content ]]></COLUMN>
         <COLUMN NAME="AUTHOR"><![CDATA[James]]></COLUMN>
         <COLUMN NAME="TITLE"><![CDATA[April IRR commentary]]></COLUMN>
         <COLUMN NAME="PUBLISHED_DATE"><![CDATA[]]></COLUMN>
-        <COLUMN NAME="ACTIVE"><![CDATA[1]]></COLUMN>
+        <COLUMN NAME="ACTIVE"><![CDATA[0]]></COLUMN>
         <COLUMN NAME="ANALYSIS_DATE"><![CDATA[1467320447329]]></COLUMN>
         <COLUMN NAME="AUTHOR_ID"><![CDATA[1]]></COLUMN>
-        <COLUMN NAME="DELETED_BY"><![CDATA[]]></COLUMN>
-        <COLUMN NAME="DELETED_DATE"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="DELETED_BY"><![CDATA[1009]]></COLUMN>
+        <COLUMN NAME="DELETED_DATE"><![CDATA[20-JUL-16]]></COLUMN>
     </ROW>
     <ROW>
         <COLUMN NAME="ID"><![CDATA[77]]></COLUMN>
@@ -812,11 +1802,11 @@ not a lot of content ]]></COLUMN>
         <COLUMN NAME="AUTHOR"><![CDATA[James]]></COLUMN>
         <COLUMN NAME="TITLE"><![CDATA[May IRR commentary]]></COLUMN>
         <COLUMN NAME="PUBLISHED_DATE"><![CDATA[]]></COLUMN>
-        <COLUMN NAME="ACTIVE"><![CDATA[1]]></COLUMN>
+        <COLUMN NAME="ACTIVE"><![CDATA[0]]></COLUMN>
         <COLUMN NAME="ANALYSIS_DATE"><![CDATA[1467320316058]]></COLUMN>
         <COLUMN NAME="AUTHOR_ID"><![CDATA[1]]></COLUMN>
-        <COLUMN NAME="DELETED_BY"><![CDATA[]]></COLUMN>
-        <COLUMN NAME="DELETED_DATE"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="DELETED_BY"><![CDATA[1009]]></COLUMN>
+        <COLUMN NAME="DELETED_DATE"><![CDATA[20-JUL-16]]></COLUMN>
     </ROW>
     <ROW>
         <COLUMN NAME="ID"><![CDATA[76]]></COLUMN>
@@ -827,14 +1817,14 @@ not a lot of content ]]></COLUMN>
         <COLUMN NAME="AUTHOR"><![CDATA[James]]></COLUMN>
         <COLUMN NAME="TITLE"><![CDATA[June IRR Commentary]]></COLUMN>
         <COLUMN NAME="PUBLISHED_DATE"><![CDATA[]]></COLUMN>
-        <COLUMN NAME="ACTIVE"><![CDATA[1]]></COLUMN>
+        <COLUMN NAME="ACTIVE"><![CDATA[0]]></COLUMN>
         <COLUMN NAME="ANALYSIS_DATE"><![CDATA[1467319032223]]></COLUMN>
         <COLUMN NAME="AUTHOR_ID"><![CDATA[1]]></COLUMN>
-        <COLUMN NAME="DELETED_BY"><![CDATA[]]></COLUMN>
-        <COLUMN NAME="DELETED_DATE"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="DELETED_BY"><![CDATA[1009]]></COLUMN>
+        <COLUMN NAME="DELETED_DATE"><![CDATA[20-JUL-16]]></COLUMN>
     </ROW>
     <ROW>
-        <COLUMN NAME="ID"><![CDATA[37617F1F9C0F4DF5E0530061CE0AC7D8]]></COLUMN>
+        <COLUMN NAME="ID"><![CDATA[3818D10BEA471926E0530061CE0AC426]]></COLUMN>
         <COLUMN NAME="SLUG"><![CDATA[Slug]]></COLUMN>
         <COLUMN NAME="AUTHOR"><![CDATA[]]></COLUMN>
         <COLUMN NAME="TITLE"><![CDATA[Title]]></COLUMN>
@@ -842,8 +1832,80 @@ not a lot of content ]]></COLUMN>
         <COLUMN NAME="ACTIVE"><![CDATA[0]]></COLUMN>
         <COLUMN NAME="ANALYSIS_DATE"><![CDATA[0]]></COLUMN>
         <COLUMN NAME="AUTHOR_ID"><![CDATA[9]]></COLUMN>
-        <COLUMN NAME="DELETED_BY"><![CDATA[8]]></COLUMN>
-        <COLUMN NAME="DELETED_DATE"><![CDATA[11-JUL-16]]></COLUMN>
+        <COLUMN NAME="DELETED_BY"><![CDATA[1009]]></COLUMN>
+        <COLUMN NAME="DELETED_DATE"><![CDATA[20-JUL-16]]></COLUMN>
+    </ROW>
+    <ROW>
+        <COLUMN NAME="ID"><![CDATA[3826FB8722FE5176E0530061CE0AB813]]></COLUMN>
+        <COLUMN NAME="SLUG"><![CDATA[Slug]]></COLUMN>
+        <COLUMN NAME="AUTHOR"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="TITLE"><![CDATA[Title]]></COLUMN>
+        <COLUMN NAME="PUBLISHED_DATE"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="ACTIVE"><![CDATA[1]]></COLUMN>
+        <COLUMN NAME="ANALYSIS_DATE"><![CDATA[0]]></COLUMN>
+        <COLUMN NAME="AUTHOR_ID"><![CDATA[9]]></COLUMN>
+        <COLUMN NAME="DELETED_BY"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="DELETED_DATE"><![CDATA[]]></COLUMN>
+    </ROW>
+    <ROW>
+        <COLUMN NAME="ID"><![CDATA[3827427E376B7F8CE0530061CE0ABF37]]></COLUMN>
+        <COLUMN NAME="SLUG"><![CDATA[Slug]]></COLUMN>
+        <COLUMN NAME="AUTHOR"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="TITLE"><![CDATA[Title]]></COLUMN>
+        <COLUMN NAME="PUBLISHED_DATE"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="ACTIVE"><![CDATA[1]]></COLUMN>
+        <COLUMN NAME="ANALYSIS_DATE"><![CDATA[0]]></COLUMN>
+        <COLUMN NAME="AUTHOR_ID"><![CDATA[9]]></COLUMN>
+        <COLUMN NAME="DELETED_BY"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="DELETED_DATE"><![CDATA[]]></COLUMN>
+    </ROW>
+    <ROW>
+        <COLUMN NAME="ID"><![CDATA[3827583719150A01E0530161CE0A783E]]></COLUMN>
+        <COLUMN NAME="SLUG"><![CDATA[Slug]]></COLUMN>
+        <COLUMN NAME="AUTHOR"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="TITLE"><![CDATA[Title]]></COLUMN>
+        <COLUMN NAME="PUBLISHED_DATE"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="ACTIVE"><![CDATA[1]]></COLUMN>
+        <COLUMN NAME="ANALYSIS_DATE"><![CDATA[0]]></COLUMN>
+        <COLUMN NAME="AUTHOR_ID"><![CDATA[9]]></COLUMN>
+        <COLUMN NAME="DELETED_BY"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="DELETED_DATE"><![CDATA[]]></COLUMN>
+    </ROW>
+    <ROW>
+        <COLUMN NAME="ID"><![CDATA[382743CE3A2D73C8E0530161CE0AE2FA]]></COLUMN>
+        <COLUMN NAME="SLUG"><![CDATA[Slug]]></COLUMN>
+        <COLUMN NAME="AUTHOR"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="TITLE"><![CDATA[Title]]></COLUMN>
+        <COLUMN NAME="PUBLISHED_DATE"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="ACTIVE"><![CDATA[1]]></COLUMN>
+        <COLUMN NAME="ANALYSIS_DATE"><![CDATA[0]]></COLUMN>
+        <COLUMN NAME="AUTHOR_ID"><![CDATA[9]]></COLUMN>
+        <COLUMN NAME="DELETED_BY"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="DELETED_DATE"><![CDATA[]]></COLUMN>
+    </ROW>
+    <ROW>
+        <COLUMN NAME="ID"><![CDATA[37ED1AE421D06BA9E0530061CE0A093C]]></COLUMN>
+        <COLUMN NAME="SLUG"><![CDATA[Slug]]></COLUMN>
+        <COLUMN NAME="AUTHOR"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="TITLE"><![CDATA[Title]]></COLUMN>
+        <COLUMN NAME="PUBLISHED_DATE"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="ACTIVE"><![CDATA[0]]></COLUMN>
+        <COLUMN NAME="ANALYSIS_DATE"><![CDATA[0]]></COLUMN>
+        <COLUMN NAME="AUTHOR_ID"><![CDATA[9]]></COLUMN>
+        <COLUMN NAME="DELETED_BY"><![CDATA[1009]]></COLUMN>
+        <COLUMN NAME="DELETED_DATE"><![CDATA[20-JUL-16]]></COLUMN>
+    </ROW>
+    <ROW>
+        <COLUMN NAME="ID"><![CDATA[37ED28319FC0711FE0530161CE0A5B0E]]></COLUMN>
+        <COLUMN NAME="SLUG"><![CDATA[Slug]]></COLUMN>
+        <COLUMN NAME="AUTHOR"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="TITLE"><![CDATA[Title]]></COLUMN>
+        <COLUMN NAME="PUBLISHED_DATE"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="ACTIVE"><![CDATA[0]]></COLUMN>
+        <COLUMN NAME="ANALYSIS_DATE"><![CDATA[0]]></COLUMN>
+        <COLUMN NAME="AUTHOR_ID"><![CDATA[9]]></COLUMN>
+        <COLUMN NAME="DELETED_BY"><![CDATA[1009]]></COLUMN>
+        <COLUMN NAME="DELETED_DATE"><![CDATA[20-JUL-16]]></COLUMN>
     </ROW>
     <ROW>
         <COLUMN NAME="ID"><![CDATA[37618AD458D653C6E0530061CE0A9FD3]]></COLUMN>
@@ -868,5 +1930,41 @@ not a lot of content ]]></COLUMN>
         <COLUMN NAME="AUTHOR_ID"><![CDATA[9]]></COLUMN>
         <COLUMN NAME="DELETED_BY"><![CDATA[8]]></COLUMN>
         <COLUMN NAME="DELETED_DATE"><![CDATA[11-JUL-16]]></COLUMN>
+    </ROW>
+    <ROW>
+        <COLUMN NAME="ID"><![CDATA[37617F1F9C0F4DF5E0530061CE0AC7D8]]></COLUMN>
+        <COLUMN NAME="SLUG"><![CDATA[Slug]]></COLUMN>
+        <COLUMN NAME="AUTHOR"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="TITLE"><![CDATA[Title]]></COLUMN>
+        <COLUMN NAME="PUBLISHED_DATE"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="ACTIVE"><![CDATA[0]]></COLUMN>
+        <COLUMN NAME="ANALYSIS_DATE"><![CDATA[0]]></COLUMN>
+        <COLUMN NAME="AUTHOR_ID"><![CDATA[9]]></COLUMN>
+        <COLUMN NAME="DELETED_BY"><![CDATA[8]]></COLUMN>
+        <COLUMN NAME="DELETED_DATE"><![CDATA[11-JUL-16]]></COLUMN>
+    </ROW>
+    <ROW>
+        <COLUMN NAME="ID"><![CDATA[382768B2070C1CC8E0530161CE0AD1D2]]></COLUMN>
+        <COLUMN NAME="SLUG"><![CDATA[Slug]]></COLUMN>
+        <COLUMN NAME="AUTHOR"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="TITLE"><![CDATA[Title]]></COLUMN>
+        <COLUMN NAME="PUBLISHED_DATE"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="ACTIVE"><![CDATA[1]]></COLUMN>
+        <COLUMN NAME="ANALYSIS_DATE"><![CDATA[0]]></COLUMN>
+        <COLUMN NAME="AUTHOR_ID"><![CDATA[9]]></COLUMN>
+        <COLUMN NAME="DELETED_BY"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="DELETED_DATE"><![CDATA[]]></COLUMN>
+    </ROW>
+    <ROW>
+        <COLUMN NAME="ID"><![CDATA[3828075F4C1A18B8E0530161CE0AB855]]></COLUMN>
+        <COLUMN NAME="SLUG"><![CDATA[Slug]]></COLUMN>
+        <COLUMN NAME="AUTHOR"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="TITLE"><![CDATA[Title]]></COLUMN>
+        <COLUMN NAME="PUBLISHED_DATE"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="ACTIVE"><![CDATA[1]]></COLUMN>
+        <COLUMN NAME="ANALYSIS_DATE"><![CDATA[0]]></COLUMN>
+        <COLUMN NAME="AUTHOR_ID"><![CDATA[9]]></COLUMN>
+        <COLUMN NAME="DELETED_BY"><![CDATA[]]></COLUMN>
+        <COLUMN NAME="DELETED_DATE"><![CDATA[]]></COLUMN>
     </ROW>
 </RESULTS>
