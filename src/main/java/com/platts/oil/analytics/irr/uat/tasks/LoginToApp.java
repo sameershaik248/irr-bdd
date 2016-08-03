@@ -20,6 +20,7 @@ public class LoginToApp implements Task {
         this.password = password;
     }
 
+    @Override
     @Step("{0} logs into the application")
     public<T extends Actor> void performAs(T actor) {
         actor.attemptsTo(EnterTextIntoField.thisTextForComponent(username, LoginPage.EMAIL_TEXTFIELD_JS));

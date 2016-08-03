@@ -17,6 +17,7 @@
         <serenity.jbehave.version>1.13.0</serenity.jbehave.version>
         <webdriver.driver>chrome</webdriver.driver>
         <webdriver.chrome.driver>C:\Dev\Projects\webdrivers\chromedriver.exe</webdriver.chrome.driver>
+        <dbunitVersion>2.5.2</dbunitVersion>
     </properties>
 
     <dependencies>
@@ -65,6 +66,17 @@
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-chrome-driver</artifactId>
             <version>2.53.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.dbunit</groupId>
+            <artifactId>dbunit</artifactId>
+            <version>${dbunitVersion}</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.oracle.jdbc</groupId>
+            <artifactId>ojdbc7</artifactId>
+            <version>12.1.0.2</version>
         </dependency>
     </dependencies>
 

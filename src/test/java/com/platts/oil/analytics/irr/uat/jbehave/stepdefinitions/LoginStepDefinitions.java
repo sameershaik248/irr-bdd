@@ -5,15 +5,12 @@ import com.platts.oil.analytics.irr.uat.tasks.DisplayedPage;
 import com.platts.oil.analytics.irr.uat.tasks.LoginToApp;
 import com.platts.oil.analytics.irr.uat.tasks.OpenAnApp;
 
+import com.platts.oil.analytics.irr.uat.utils.DatabaseTools;
 import net.serenitybdd.screenplay.abilities.BrowseTheWeb;
 import net.thucydides.core.annotations.Managed;
-import net.thucydides.core.annotations.Pending;
 import net.thucydides.core.annotations.Steps;
-import org.jbehave.core.annotations.Given;
-import org.jbehave.core.annotations.Then;
-import org.jbehave.core.annotations.When;
+import org.jbehave.core.annotations.*;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
 
 
 import static com.platts.oil.analytics.irr.uat.model.Actors.theActorNamed;
@@ -29,6 +26,18 @@ public class LoginStepDefinitions {
     WebDriver janesBrowser;
 
     @Steps DisplayedPage theDisplayedPage;
+
+    @BeforeStories
+    public void beforeStories() throws Throwable {
+        DatabaseTools.INSTANCE.connectToDb();
+        DatabaseTools.INSTANCE.createSnapshotAndLoadTestData();
+    }
+
+    @AfterStories
+    public void afterStories() throws Throwable {
+        DatabaseTools.INSTANCE.restoreSnapshot();
+        DatabaseTools.INSTANCE.closeDbConnection();
+    }
 
     @Given("$actor opens the WEA application")
     public void i_open_the_app_application(String actor) throws Throwable {

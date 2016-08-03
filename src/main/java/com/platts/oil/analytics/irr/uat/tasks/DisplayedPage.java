@@ -16,6 +16,7 @@ public class DisplayedPage implements Question<AppPages> {
         return new DisplayedPage();
     }
 
+    @Override
     public AppPages answeredBy(Actor actor) {
         AppPages result = null;
         if (isPanelVisible(actor, Navigation.MULTIPLAY_PAGE_XTYPE)) {

@@ -26,10 +26,26 @@ public class MarketAnalysisData {
         this.active = active;
     }
 
-    public boolean equals(MarketAnalysisData b) {
-       boolean returnBool = this.id.equals(b.id) && this.title.equals(b.title);
+    @Override
+    public boolean equals(Object o) {
+
+        if (!(o instanceof MarketAnalysisData ))
+            return false;
+        MarketAnalysisData b = (MarketAnalysisData) o;
+        return this.id.equals(b.id) && this.title.equals(b.title);
                //&& this.publishedDate.equals(b.publishedDate);
-        return returnBool;
+    }
+
+    @Override
+    public int hashCode() {
+        int result = 23;
+        result = 31 * result + this.id.hashCode();
+        return result;
+    }
+
+    @Override
+    public String toString() {
+        return "Market Insight with id: " + this.id;
     }
 
     public String getId() {

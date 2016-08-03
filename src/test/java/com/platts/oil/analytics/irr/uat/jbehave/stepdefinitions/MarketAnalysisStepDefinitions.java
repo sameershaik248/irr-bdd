@@ -6,13 +6,14 @@ import com.platts.oil.analytics.irr.uat.pages.MarketInsightPage;
 import com.platts.oil.analytics.irr.uat.pages.components.Navigation;
 import com.platts.oil.analytics.irr.uat.tasks.*;
 import com.platts.oil.analytics.irr.uat.util.*;
+import com.platts.oil.analytics.irr.uat.utils.OrdinalToInt;
 import net.thucydides.core.annotations.Managed;
 import net.thucydides.core.annotations.Steps;
+import org.dbunit.PropertiesBasedJdbcDatabaseTester;
 import org.jbehave.core.annotations.Given;
 import org.jbehave.core.annotations.Then;
 import org.jbehave.core.annotations.When;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
 
 import java.util.List;
 
@@ -54,26 +55,21 @@ public class MarketAnalysisStepDefinitions {
         theActorNamed(actor).attemptsTo(ClickSenchaButton.forComponent(Navigation.MARKET_INSIGHT_NAV_BUTTON_JS));
     }
 
-    @When("$actor selects the first article from the index")
-    public void i_select_the_first_article_from_index(String actor) {
-        theActorNamed(actor).attemptsTo(ClickSenchaButton.forComponent(MarketInsightPage.FIRST_INDEX_ARTICLE_JS));
+    @When("$actor selects the $index article from the index")
+    public void i_select_the_first_article_from_index(String actor, String ordinal) throws Throwable {
+        Integer index = OrdinalToInt.INSTANCE.getIntegerForOrdinal(ordinal);
+        theActorNamed(actor).attemptsTo(ClickSenchaButton.forComponent(MarketInsightPage.articleForIndex(--index)));
     }
 
     @Then("$actor sees the $selected Market Insight article")
-    public void i_see_the_latest_market_analysis(String actor, String selected) {
+    public void i_see_the_latest_market_analysis(String actor, String selected) throws Throwable {
         // Check that the actor is on the right page
         theActorNamed(actor).should(seeThat(theDisplayedPage, equalTo(AppPages.MarketInsight)));
 
         // Load our static data for page comparison
         List<MarketAnalysisData> articleList = MarketAnalysisStaticLoader.getLoader().loadFromFile();
-        MarketAnalysisData currentArticle;
-        if (selected.equals("latest")) {
-            currentArticle = articleList.get(0);
-        } else if (selected.equals("second")) {
-            currentArticle = articleList.get(1);
-        } else {
-            currentArticle = articleList.get(0);
-        }
+        int index = OrdinalToInt.INSTANCE.getIntegerForOrdinal(selected);
+        MarketAnalysisData currentArticle = articleList.get(--index);
 
         // Compare the static data with the page data
         theActorNamed(actor).should(seeThat(theDisplayedArticle, hasSameId(currentArticle)));
@@ -84,7 +80,6 @@ public class MarketAnalysisStepDefinitions {
     public void i_see_the_page_index(String actor) {
 
         List<MarketAnalysisData> articleList = MarketAnalysisStaticLoader.getLoader().loadFromFile();
-        articleList.remove(0);
         theActorNamed(actor).should(seeThat(theDisplayedMarketIndex, hasSameContents(articleList)));
 
     }

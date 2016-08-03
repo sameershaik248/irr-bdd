@@ -5,10 +5,10 @@ import net.thucydides.core.annotations.DefaultUrl;
 /**
  * Created by jonathan_cone on 6/22/2016.
  */
-@DefaultUrl("http://localhost:8080/irr")
+@DefaultUrl("http://nj09mhf5996.mhf.mhc:7001/irr/")
 public class MarketInsightPage extends PlattsPageObject {
 
-    private static final String CURRENT_ARTICLE_TITLE_XTYPE = "container";
+    private static final String CURRENT_ARTICLE_TITLE_XTYPE = "label";
     private static final String CURRENT_ARTICLE_TITLE_REFERENCE = "title";
     public static final String CURRENT_ARTICLE_TITLE_JS =
             getComponentIdJsByRef(CURRENT_ARTICLE_TITLE_XTYPE, CURRENT_ARTICLE_TITLE_REFERENCE);
@@ -26,8 +26,9 @@ public class MarketInsightPage extends PlattsPageObject {
     public static final String CURRENT_ARTICLE_ARTICLE_ID =
             "return Ext.ComponentQuery.query('container[reference=mainAnalysisPanel]')[0].articleId;";
 
-    public static final String FIRST_INDEX_ARTICLE_JS =
-            getButtonIdJsBySelector("marketanalysisindex", 1);
+    public static String articleForIndex(Integer index) {
+        return getButtonIdJsBySelector("marketanalysisindex", index);
+    }
 
     public static final String NUMBER_OF_ARTICLES_IN_INDEX =
             "return Ext.ComponentQuery.query('marketanalysisindex').length";
@@ -100,5 +101,8 @@ public class MarketInsightPage extends PlattsPageObject {
     private static final String ARTICLE_EDITOR_PUBLISH_QUERY = "marketanalysiseditor button[itemId=marketanalysispublish]";
     public static final String ARTICLE_EDITOR_PUBLISH_JS =
             getComponentIdByQuery(ARTICLE_EDITOR_PUBLISH_QUERY);
+
+    // Get the article JS for a specific index
+
 
 }
