@@ -11,7 +11,10 @@ import org.dbunit.ext.oracle.OracleDataTypeFactory;
 import org.dbunit.operation.DatabaseOperation;
 
 import java.io.File;
+import java.io.FileOutputStream;
 import java.io.FileWriter;
+import java.io.OutputStreamWriter;
+import java.nio.charset.Charset;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
@@ -33,7 +36,7 @@ public enum DatabaseTools {
             dataSet.addTable("MARKET_ANALYSIS");
             dataSet.addTable("MARKET_ANALYSIS_CONTENT");
             dataSet.addTable("MARKET_ANALYSIS_ATTACHMENT");
-            FlatXmlDataSet.write(dataSet, new FileWriter("snapshot.xml"));
+            FlatXmlDataSet.write(dataSet, new OutputStreamWriter(new FileOutputStream("snapshot.xml"), "UTF-8"));
             // Insert the test data
             FlatXmlDataSetBuilder builder = new FlatXmlDataSetBuilder();
             builder.setColumnSensing(true);
