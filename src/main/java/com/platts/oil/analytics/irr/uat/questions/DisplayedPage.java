@@ -1,7 +1,6 @@
-package com.platts.oil.analytics.irr.uat.tasks;
+package com.platts.oil.analytics.irr.uat.questions;
 
 import com.platts.oil.analytics.irr.uat.model.AppPages;
-import com.platts.oil.analytics.irr.uat.pages.LoginPage;
 import com.platts.oil.analytics.irr.uat.pages.components.Navigation;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Question;

@@ -1,4 +1,4 @@
-package com.platts.oil.analytics.irr.uat.tasks;
+package com.platts.oil.analytics.irr.uat.questions;
 
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Question;

@@ -1,10 +1,8 @@
-package com.platts.oil.analytics.irr.uat.tasks;
+package com.platts.oil.analytics.irr.uat.questions;
 
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Question;
 import net.serenitybdd.screenplay.abilities.BrowseTheWeb;
-import net.serenitybdd.screenplay.questions.Visibility;
-import net.serenitybdd.screenplay.targets.Target;
 
 /**
  * Created by connor_hendrix on 7/8/2016.

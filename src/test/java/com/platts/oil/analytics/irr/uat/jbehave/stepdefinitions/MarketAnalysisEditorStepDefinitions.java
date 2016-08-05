@@ -2,6 +2,10 @@ package com.platts.oil.analytics.irr.uat.jbehave.stepdefinitions;
 
 import com.platts.oil.analytics.irr.uat.model.MarketAnalysisData;
 import com.platts.oil.analytics.irr.uat.pages.MarketInsightPage;
+import com.platts.oil.analytics.irr.uat.questions.ComponentDisplayed;
+import com.platts.oil.analytics.irr.uat.questions.DisplayedArticle;
+import com.platts.oil.analytics.irr.uat.questions.MessageBoxContent;
+import com.platts.oil.analytics.irr.uat.questions.MessageBoxVisible;
 import com.platts.oil.analytics.irr.uat.tasks.*;
 import net.thucydides.core.annotations.Managed;
 import net.thucydides.core.annotations.Steps;
@@ -10,7 +14,6 @@ import org.jbehave.core.annotations.Then;
 import org.jbehave.core.annotations.When;
 import org.openqa.selenium.WebDriver;
 
-import java.io.IOException;
 import java.nio.charset.Charset;
 import java.nio.file.Files;
 import java.nio.file.Paths;
@@ -30,7 +33,8 @@ public class MarketAnalysisEditorStepDefinitions {
     @Managed
     WebDriver janesBrowser;
 
-    @Steps DisplayedArticle theDisplayedArticle;
+    @Steps
+    DisplayedArticle theDisplayedArticle;
 
     @Given("$actor is on the Market Insight Editor page")
     public void i_am_on_the_market_insight_page(String actor) {

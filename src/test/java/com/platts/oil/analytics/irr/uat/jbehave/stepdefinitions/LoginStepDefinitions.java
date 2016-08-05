@@ -1,7 +1,7 @@
 package com.platts.oil.analytics.irr.uat.jbehave.stepdefinitions;
 
 import com.platts.oil.analytics.irr.uat.model.AppPages;
-import com.platts.oil.analytics.irr.uat.tasks.DisplayedPage;
+import com.platts.oil.analytics.irr.uat.questions.DisplayedPage;
 import com.platts.oil.analytics.irr.uat.tasks.LoginToApp;
 import com.platts.oil.analytics.irr.uat.tasks.OpenAnApp;
 

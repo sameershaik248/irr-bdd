@@ -4,12 +4,14 @@ import com.platts.oil.analytics.irr.uat.model.AppPages;
 import com.platts.oil.analytics.irr.uat.model.MarketAnalysisData;
 import com.platts.oil.analytics.irr.uat.pages.MarketInsightPage;
 import com.platts.oil.analytics.irr.uat.pages.components.Navigation;
+import com.platts.oil.analytics.irr.uat.questions.DisplayedArticle;
+import com.platts.oil.analytics.irr.uat.questions.DisplayedMarketIndex;
+import com.platts.oil.analytics.irr.uat.questions.DisplayedPage;
 import com.platts.oil.analytics.irr.uat.tasks.*;
 import com.platts.oil.analytics.irr.uat.util.*;
 import com.platts.oil.analytics.irr.uat.utils.OrdinalToInt;
 import net.thucydides.core.annotations.Managed;
 import net.thucydides.core.annotations.Steps;
-import org.dbunit.PropertiesBasedJdbcDatabaseTester;
 import org.jbehave.core.annotations.Given;
 import org.jbehave.core.annotations.Then;
 import org.jbehave.core.annotations.When;
@@ -31,9 +33,12 @@ public class MarketAnalysisStepDefinitions {
     @Managed
     WebDriver janesBrowser;
 
-    @Steps DisplayedArticle theDisplayedArticle;
-    @Steps DisplayedMarketIndex theDisplayedMarketIndex;
-    @Steps DisplayedPage theDisplayedPage;
+    @Steps
+    DisplayedArticle theDisplayedArticle;
+    @Steps
+    DisplayedMarketIndex theDisplayedMarketIndex;
+    @Steps
+    DisplayedPage theDisplayedPage;
 
     @Given("$actor is logged into the WEA application with username $username and password $password")
     public void i_am_logged_into_wea(String actor, String username, String password) {

@@ -1,4 +1,4 @@
-package com.platts.oil.analytics.irr.uat.tasks;
+package com.platts.oil.analytics.irr.uat.questions;
 
 import com.platts.oil.analytics.irr.uat.model.MarketAnalysisData;
 import com.platts.oil.analytics.irr.uat.pages.MarketInsightPage;
